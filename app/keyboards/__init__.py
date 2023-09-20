@@ -26,7 +26,7 @@ def gen_main_keyboard()->ReplyKeyboardMarkup:
 def gen_search_keyboard(lis)->InlineKeyboardMarkup:
     main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=1)
     for key in lis:
-        (key)
+
         button = telebot.types.InlineKeyboardButton(text=key, callback_data=key)
         main_keyboard.add(button)
     main_keyboard.add(telebot.types.InlineKeyboardButton(text="Меню", callback_data="menu"))
