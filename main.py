@@ -7,7 +7,7 @@ from app.services.keys import keys3
 from app.configs import token
 from app.keyboards import gen_main_keyboard,gen_search_keyboard,gen_first_keyboard,\
     gen_second_keyboard,gen_third_keyboard,get_info,search_info
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot('6396475143:AAENCBa4wUJ4eUJ-tkE0R2T-vWQYPljx6kI')
 from app.handlers import *
 if __name__ == '__main__':
     bot.set_chat_menu_button()
