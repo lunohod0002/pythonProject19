@@ -1,5 +1,7 @@
 from app.services.types import equipment_catalog
 import telebot
+import datetime
+from datetime import datetime
 from app.services.brands import brands
 from telebot.types import ReplyKeyboardRemove, Message
 from app.services.names import equipment
@@ -71,10 +73,13 @@ def callback_query(call):
 
 
 @bot.message_handler(content_types=['text'])
-def booking(message):
-    print(message.text)
+def search(message: Message):
     match storage.get_state(chat_id=message.chat.id, user_id=message.from_user.id):
         case 'search':
+            log_file = open("info.log", "a")
+            log_file.write(
+                f"\n[INFO {datetime.now()}]:  {message.from_user.username} {message.text}")
+            log_file.close()
             if (len(message.text) > 2):
                 lis = list()
                 s = message.text.lower
@@ -100,6 +105,7 @@ def booking(message):
                     storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id,
                                       state='search')
                     storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
+
         case 'brand_type':
             if message.text in brands.keys():
                 bot.send_message(message.chat.id, "Выбери название прибора",
@@ -120,7 +126,6 @@ def booking(message):
         case 'brand_name':
             if (message.text in brands[
                 storage.get_data(chat_id=message.chat.id, user_id=message.from_user.id)['brand_type']].keys()):
-                print(message.text)
                 storage.set_data(chat_id=message.chat.id, user_id=message.from_user.id,
                                  key='brand_name', value=message.text)
                 bot.send_message(message.chat.id, get_info_brand(tg_id=message.chat.id))
@@ -132,7 +137,6 @@ def booking(message):
             else:
                 bot.send_message(message.chat.id, "Название не найдено")
         case 'brand_info':
-            print(1)
             if (message.text in brands[
                 storage.get_data(chat_id=message.chat.id, user_id=message.from_user.id)['brand_type']
                 [storage.get_data(chat_id=message.chat.id, user_id=message.from_user.id)['brand_name']]]):
@@ -151,6 +155,7 @@ def booking(message):
                                   state='choose_brand')
             else:
                 bot.send_message(message.chat.id, "Название не найдено. Поробуй еще раз")
+
         case 'choose_type':
             if (message.text in equipment_catalog.keys()):
                 bot.send_message(message.chat.id, "Выбери бренд прибора",
@@ -217,7 +222,6 @@ def booking(message):
                 storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
                 storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id,
                                   state='choose_type')
-
 
 
 bot.set_chat_menu_button()

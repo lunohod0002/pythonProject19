@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="fix: main and dict">
-      <change afterPath="$PROJECT_DIR$/app/services/brands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/equipment.json" afterDir="false" />
+    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="fix: main and dict brands">
+      <change afterPath="$PROJECT_DIR$/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/dict2.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/names.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/keys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695314239649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: main and dict brands">
+      <created>1695334249490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695334249490</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,7 +128,8 @@
     <MESSAGE value="fix:token" />
     <MESSAGE value="fix:tokenJ" />
     <MESSAGE value="fix: main and dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: main and dict" />
+    <MESSAGE value="fix: main and dict brands" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: main and dict brands" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
