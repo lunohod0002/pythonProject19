@@ -45,19 +45,19 @@ equipment_catalog = {
         },
         "COEMAR": {
             "COEMAR PARLITE": {
-                "": "6 CH",
+                "Default": "6 CH",
                 "Power": "38W",
                 "Weight": "3.6 kg"
             },
             "COEMAR PINLITE": {
-                "": "6 CH",
+                "Default": "6 CH",
                 "Power": "38W",
                 "Weight": "3.6 kg"
             }
         },
         "GRIVEN": {
             "GRIVEN STROKER LED": {
-                "": "4 CH",
+                "Default": "4 CH",
                 "Power": "150W",
                 "Weight": "14 kg"
             }
@@ -145,11 +145,16 @@ equipment_catalog = {
             }
         },
         "ASTERA": {
-            "ASTERA AX5 LED PAR":{
-                "Default":"OO CH"
+            "ASTERA AX5 LED PAR": {
+                "Default": "OO CH"
             }
         },
-        "LED TUBE": "0 CH"
+        "LED TUBE": {
+            "LED TUBE": {
+                "Default": "OO CH"
+            }
+        }
+
     },
     "Ламповые прожекторы с полным вращением": {
         "MARTIN WASH": {
@@ -220,7 +225,7 @@ equipment_catalog = {
         },
         "VARILITE SPOT": {
             "VARILITE VL 1000 AS": {
-                "": "27 CH",
+                "Default": "27 CH",
                 "Power": "665W",
                 "Weight": "28 kg"
             },
@@ -252,7 +257,7 @@ equipment_catalog = {
         },
         "HES GYBRED": {
             "HES SHOWGUN": {
-                "": "30 CH",
+                "Default": "30 CH",
                 "Power": "2800W",
                 "Weight": "63.5 kg"
             },
@@ -486,7 +491,7 @@ equipment_catalog = {
             },
 
         },
-        "Другое":{
+        "Другое": {
 
             "6-LAMP BAR PAR 64": {
                 "Default": "6 CH",
@@ -513,7 +518,7 @@ equipment_catalog = {
                 "Default": "1 CH",
                 "Power": "50W",
                 "Weight": "2 kg"
-                },
+            },
             "8 - LITE BLINDER": {
                 "Default": "2 CH",
                 "Power": "5200W",

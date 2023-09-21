@@ -1,4 +1,4 @@
-from app.services.dict2 import equipment as dic2
+from app.services.names import equipment as dic2
 keys3=[]
 for key in dic2.keys():
     if len(key.split(" "))==2:

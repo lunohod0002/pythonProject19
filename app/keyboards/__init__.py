@@ -1,6 +1,7 @@
-from app.services.dict import equipment_catalog
+from app.services.types import equipment_catalog
 import telebot
-from app.services.dict2 import equipment
+from app.services.brands import brands
+from app.services.names import equipment
 from app.services import storage
 from telebot.types import ReplyKeyboardRemove,ReplyKeyboardMarkup,InlineKeyboardMarkup
 keys=[]
@@ -10,12 +11,33 @@ keys2=[]
 for key in equipment.keys():
     keys2.append(key)
 kol=0
+def get_brands_keyboard()->ReplyKeyboardMarkup:
+    main_keyboard = telebot.types.ReplyKeyboardMarkup()
+    for key in brands.keys():
+        button = telebot.types.InlineKeyboardButton(text=key)
+        main_keyboard.row(button)
+    main_keyboard.row("Меню")
+    return main_keyboard
+def get_second_brand_keybord(message)->ReplyKeyboardMarkup:
+    main_keyboard = telebot.types.ReplyKeyboardMarkup()
+    dic=brands[message]
+    for key in dic.keys():
+        button = telebot.types.InlineKeyboardButton(text=key)
+        main_keyboard.row(button)
+    main_keyboard.row("\U0001F519Назад")
+    return main_keyboard
+
+
 def gen_first_keyboard()->InlineKeyboardMarkup:
-    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=2,)
+    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=2)
     second=telebot.types.InlineKeyboardButton(text='Поиск \U0001F50E',callback_data="search")
-    firt=telebot.types.InlineKeyboardButton(text='Каталог \U0001F4D6',callback_data="catalog")
-    main_keyboard.add(firt)
+    types=telebot.types.InlineKeyboardButton(text='Каталог \U0001F4D6',callback_data="catalog_types")
+    brand=telebot.types.InlineKeyboardButton(text='Каталог брендов \U0001F4D6',callback_data="catalog_brands")
+
+    main_keyboard.add(types)
+    main_keyboard.add(brand)
     main_keyboard.add(second)
+
     return main_keyboard
 def gen_main_keyboard()->ReplyKeyboardMarkup:
     main_keyboard = telebot.types.ReplyKeyboardMarkup()
@@ -60,6 +82,13 @@ def gen_third_keyboard(tg_id) ->ReplyKeyboardMarkup:
 def get_info(tg_id):
     costorage=storage.get_data(chat_id=tg_id,user_id=tg_id)
     dic1=equipment_catalog[costorage['type']][costorage['brand']][costorage['name']]
+    s = str(dic1)
+    s = s.replace(', ', '\n').replace('"', '').replace(" {","\n").replace("{'", '').replace('}', "\n").replace("'", "").replace("Power","\nPower")
+    s=" "+s
+    return s
+def get_info_brand(tg_id):
+    costorage=storage.get_data(chat_id=tg_id,user_id=tg_id)
+    dic1=brands[costorage['brand_type']][costorage['brand_name']]
     s = str(dic1)
     s = s.replace(', ', '\n').replace('"', '').replace(" {","\n").replace("{'", '').replace('}', "\n").replace("'", "").replace("Power","\nPower")
     s=" "+s

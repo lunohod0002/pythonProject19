@@ -1,0 +1,626 @@
+{
+    "equipment":[
+        {
+            "type":"Светодиодное оборудование",
+            "brand":"GLP",
+            "name":"GLP X4 BAR 20",
+            "settings":{
+                "Standard": "34 CH",
+                "Compressed": "20 CH",
+                "HI-Res": "35 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "88 CH",
+                "Single-Pixel HR": "89 CH",
+                "Power": "550W",
+                "Weight": "16 kg"}
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 ATOM",
+            "settings": {
+                "9": "9 CH",
+                "Power": "25W",
+                "Weight": "1.8 kg"
+            }
+        },
+        {
+            "type":"Светодиодное оборудование",
+            "brand":"SGM",
+            "name":"SGM P5",
+            "settings":{
+                "3": "3 CH",
+                "4": "4 CH",
+                "6": "6 CH",
+                "6 CTC": "6 CH",
+                "8": "8 CH",
+                "9": "9 CH",
+                "10": "10 CH",
+                "Power": "450W",
+                "Weight": "8.9 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "COEMAR",
+            "name": "COEMAR PARLITE",
+            "settings": {
+                "Default": "6 CH",
+                "Power": "38W",
+                "Weight": "3.6 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "COEMAR",
+            "name": "COEMAR PINLITE",
+            "settings": {
+                "Default": "6 CH",
+                "Power": "38W",
+                "Weight": "3.6 kg"
+            }
+        },
+        {
+            "type":"Светодиодное оборудование",
+            "brand":"GRIVEN",
+            "name":"GRIVEN STROKER LED",
+            "settings":{
+                "Default": "4 CH",
+                "Power": "150W",
+                "Weight": "14 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "CHROMA-Q",
+            "name": "CHROMA-Q COLOR BLOCK 2",
+            "settings": {
+                "1": "12 CH",
+                "2": "12 CH",
+                "3": "12 CH",
+                "4": "3 CH",
+                "5": "3 CH",
+                "6": "3 CH",
+                "7": "3 CH",
+                "8": "3 CH",
+                "9": "3 CH",
+                "10": "16 CH",
+                "11": "16 CH",
+                "12": "4 CH",
+                "13": "4 CH",
+                "14": "4 CH",
+                "15": "4 CH",
+                "16 (Not Simulated)": "1 CH",
+                "Power": "12W",
+                "Weight": "1.3 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "CHROMA-Q",
+            "name": "CHROMA-Q COLOR FORCE 48",
+            "settings": {
+                "1": "31 CH",
+                "2": "24 CH",
+                "3": "24 CH",
+                "4": "32 CH",
+                "5": "33 CH",
+                "6": "9 CH",
+                "7": "3 CH",
+                "8": "3 CH",
+                "9": "4 CH",
+                "10": "5 CH",
+                "Power": "480W",
+                "Weight": "15 kg"
+            }
+        },{
+            "type":"Светодиодное оборудование",
+            "brand":"CHROMA-Q",
+            "name":"CHROMA-Q COLOR FORCE II 48",
+            "settings":{
+                "GROUPING 1": {
+                    "RGB": "48 CH",
+                    "RGBA": "64 CH",
+                    "HSI": "48 CH",
+                    "Look Select": " 1 CH"
+                },
+                "GROUPING 2": {
+                    "RGB": "24 CH",
+                    "RGBA": "32 CH",
+                    "HSI": "33 CH",
+                    "Look Select": " 1 CH"
+                },
+                "GROUPING 4": {
+                    "RGB": "12 CH",
+                    "RGBA": "16 CH",
+                    "HSI": "9 CH",
+                    "Look Select": " 1 CH"
+                },
+                "GROUPING 8": {
+                    "RGB": "6 CH",
+                    "RGBA": "8 CH",
+                    "HSI": "3 CH",
+                    "Look Select": " 1 CH"
+                },
+                "GROUPING 16": {
+                    "RGB": "3 CH",
+                    "RGBA": "4 CH",
+                    "HSI": "3 CH",
+                    "Look Select": " 1 CH"
+                },
+                "GROUPING ODEW": {
+                    "RGB": "6 CH",
+                    "RGBA": "8 CH",
+                    "HSI": "6 CH",
+                    "Look Select": " 1 CH"
+                },
+                "GROUPING SKP 3": {
+                    "RGB": "12 CH",
+                    "RGBA": "16 CH",
+                    "HSI": "12 CH",
+                    "Look Select": " 1 CH"
+                },
+                "Power": "533W",
+                "Weight": "18 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "ASTERA",
+            "name": "ASTERA AX5 LED PAR",
+            "settings": {
+                "Default": "OO CH"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "LED TUBE",
+            "name": "LED TUBE",
+            "settings": {
+                "Default": "OO CH"
+            }
+        },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 600 WASH",
+            "settings":{
+                "1": "10 CH",
+                "2": "12 CH",
+                "3": "12 CH",
+                "4": "14 CH",
+                "Power": "750W",
+                "Weight": "28 kg"
+            }
+      },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 700 WASH",
+            "settings":{
+                "16-Bit": "16 CH",
+                "16-bit Extended": "23 CH",
+                "Power": "950W",
+                "Weight": "32 kg"
+            }
+      },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 2000 WASH",
+            "settings":{
+                "8": "19 CH",
+                "16": "21 CH",
+                "Power": "1450W",
+                "Weight": "36 kg"
+            }
+        },
+        {
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 2000 WASH XB",
+            "settings":{
+                "8": "19 CH",
+                "16": "21 CH",
+                "Power": "1800W",
+                "Weight": "38 kg"
+            }
+        },
+        {
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN SPOT",
+            "name":"MARTIN MAC 700 PROFILE",
+            "settings":{
+                "16-Bit": "23 CH",
+                "16-bit Extended": "31 CH",
+                "Power": "950W",
+                "Weight": "34.5 kg"
+            }
+        },
+        {
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN SPOT",
+            "name":"MARTIN MAC 2000 PROFILE",
+            "settings":{
+                "8": "20 CH",
+                "16": "24 CH",
+                "Power": "1500W",
+                "Weight": "40 kg"
+            }
+        },
+        {
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN SPOT",
+            "name":"MARTIN MAC VIPER PROFILE",
+            "settings":{
+                "16-Bit": "26 CH",
+                "16-bit Extended": "34 CH",
+                "Power": "1225W",
+                "Weight": "37.2 kg"
+            }
+        },
+        {
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN SPOT",
+            "name":"MARTIN MAC VIPER PERFORMANCE",
+            "settings":{
+                "16-Bit": "32 CH",
+                "16-bit Extended": "35 CH",
+                "Power": "1225W",
+                "Weight": "37.9 kg"
+            }
+        },
+        {
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN SPOT",
+            "name":"MARTIN MAC III PERFORMANCE",
+            "settings":{
+                "Basic": "34 CH",
+                "Extended": "40 CH",
+                "Power": "1805W",
+                "Weight": "53.5 kg"
+            }
+        },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"MARTIN SPOT",
+            "name":"MARTIN MAC III PROFILE",
+            "settings":{
+                "8": "27 CH",
+                "16": "30 CH",
+                "Power": "1805W",
+                "Weight": "53.5 kg"
+            }
+        },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"VARILITE SPOT",
+            "name":"VARILITE VL 1000 AS",
+            "settings":{
+                "Default": "27 CH",
+                "Power": "665W",
+                "Weight": "28 kg"
+            }
+        },
+        {
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"CLAYPAKY BEAM",
+            "name":"CLAYPAKY SHARPY",
+            "settings":{
+                "Stnd": "16 CH",
+                "Vect": "20 CH",
+
+                "Power": "350W",
+                "Weight": "19 kg"
+            }
+        },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"VARILITE BEAM",
+            "name":"VARI LITE 6000 BEAM",
+            "settings":{
+                "16-Bit": "23 CH",
+                "Power": "2140W",
+                "Weight": "28 kg"
+            }
+        },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"CLAYPAKY GYBRED",
+            "name":"CLAYPAKY MYTHOS II",
+            "settings":{
+                "Standard": "30 CH",
+                "Extended": "34 CH",
+
+                "Power": "700W",
+                "Weight": "32 kg"
+            }
+        },{
+            "type":"Ламповые прожекторы с полным вращением",
+            "brand":"HES GYBRED",
+            "name":"HES SHOWGUN",
+            "settings":{
+                "Default": "30 CH",
+                "Power": "2800W",
+                "Weight": "63.5 kg"
+            }
+        },{
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"AYRTON",
+            "name":"Ayrton Dreampanel Twin",
+            "settings":{
+                "Basic": "18 CH",
+                "Standard": "20 CH",
+
+                "Extended": "272 CH",
+                "Power": "900W",
+                "Weight": "25 kg"
+            }
+        },
+        {
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC QUANTUM WASH",
+            "settings":{
+                "Basic": "17 CH",
+                "Extended": "33 CH",
+                "Power": "1020W",
+                "Weight": "21 kg"
+            }
+        },{
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC AURA XB",
+            "settings":{
+                "Standard": "14 CH",
+                "Extended": "25 CH",
+                "Power": "400W",
+                "Weight": "6.5 kg"
+            }
+        },
+        {
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC AURA",
+            "settings":{
+                "Standard": "14 CH",
+                "Extended": "25 CH",
+                "Power": "260W",
+                "Weight": "5.6 kg"
+            }
+        },
+        {
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 301 WASH",
+            "settings":{
+                "Standard 8 RGB": "16 CH",
+                "Standard 16 RGB": "19 CH",
+                "Compressed 8 RGB": "12 CH",
+                "Compressed 16 RGB": "15 CH",
+
+                "Power": "350W",
+                "Weight": "8.9 kg"
+            }
+        },{
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 101",
+            "settings":{
+                "Raw": "12 CH",
+                "RGB": "12 CH",
+                "Basic": "8 CH",
+                "Power": "123W",
+                "Weight": "3.7 kg"
+            }
+        },{
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"JB-LIGHTNING WASH",
+            "name":"JB-LIGHTING A7 ZOOM",
+            "settings":{
+                "Standard 8 RGB": "16 CH",
+                "Standard 16 RGB": "19 CH",
+                "Compressed 8 RGB": "12 CH",
+                "Compressed 16 RGB": "15 CH",
+
+                "Power": "350W",
+                "Weight": "8.9 kg"
+            }
+        },{
+            "type":"Светодиодные прожекторы с полным вращением",
+            "brand":"CLAYPAKY BEAM",
+            "name":"CLAYPAKY AXCOR BEAM 300",
+            "settings":{
+                "Standard": "14 CH",
+                "Sharpy": "16 CH",
+
+                "Power": "221W",
+                "Weight": "17.6 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },{
+            "type":"Светодиодное оборудование",
+            "brand":"GLP",
+            "name":"GLP X4 BAR 20",
+            "settings":{
+                "Standard": "34 CH",
+                "Compressed": "20 CH",
+                "HI-Res": "35 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "88 CH",
+                "Single-Pixel HR": "89 CH",
+                "Power": "550W",
+                "Weight": "16 kg"}
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },{
+            "type":"Светодиодное оборудование",
+            "brand":"GLP",
+            "name":"GLP X4 BAR 20",
+            "settings":{
+                "Standard": "34 CH",
+                "Compressed": "20 CH",
+                "HI-Res": "35 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "88 CH",
+                "Single-Pixel HR": "89 CH",
+                "Power": "550W",
+                "Weight": "16 kg"}
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },{
+            "type":"Светодиодное оборудование",
+            "brand":"GLP",
+            "name":"GLP X4 BAR 20",
+            "settings":{
+                "Standard": "34 CH",
+                "Compressed": "20 CH",
+                "HI-Res": "35 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "88 CH",
+                "Single-Pixel HR": "89 CH",
+                "Power": "550W",
+                "Weight": "16 kg"}
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        },
+        {
+            "type": "Светодиодное оборудование",
+            "brand": "GLP",
+            "name": "GLP X4 BAR 10",
+            "settings": {
+                "Standard": "33 CH",
+                "Compressed": "19 CH",
+                "HI-Res": "34 CH",
+                "Dual-Pixel": "48 CH",
+                "Dual-Pixel HR": "49 CH",
+                "Single-Pixel": "48 CH",
+                "Single-Pixel HR": "49 CH",
+                "Power": "280W",
+                "Weight": "8 kg"
+            }
+        }
+
+
+
+
+    ]
+}
