@@ -208,8 +208,8 @@ equipment_catalog = {
             "MARTIN MAC III PERFORMANCE": {
                 "Basic": "34 CH",
                 "Extended": "40 CH",
-                "Power": "1225W",
-                "Weight": "37.9 kg"
+                "Power": "1805W",
+                "Weight": "53.5 kg"
             },
             "MARTIN MAC III PROFILE": {
                 "8": "27 CH",
@@ -387,8 +387,8 @@ equipment_catalog = {
             "CLAYPAKY STORMY CC": {
                 "Standard": "7 CH",
                 "Independent": "14 CH",
-                "Extendend": "4 CH",
-                "Design": "4 CH",
+                "Extendend": "15 CH",
+                "Design": "5 CH",
 
                 "Power": "850W",
                 "Weight": "7.2 kg"
@@ -411,7 +411,7 @@ equipment_catalog = {
                 "Power": "2500W",
                 "Weight": "77.5 kg"
             },
-            "GRIVEN KALEIO": {
+            "GRIVEN KALEIDO": {
                 "Default": "5 CH",
                 "Power": "575W",
                 "Weight": "31 kg"
@@ -426,7 +426,7 @@ equipment_catalog = {
         },
 
     },
-    "Студийная подсветка": {
+    "Студийный свет": {
         "ARRI": {
             "ARRI STUDIO 2000 FRESNEL": {
                 "Default": "1 CH",

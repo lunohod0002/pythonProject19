@@ -50,7 +50,6 @@ def callback_query(call):
             storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id, state='search')
             bot.answer_callback_query(callback_query_id=call.id, show_alert=True)
         elif call.data =="menu":
-            (storage.get_data(chat_id=call.message.chat.id, user_id=call.from_user.id).keys())
 
             bot.send_message(call.from_user.id, "Привет! Нажми на кнопку, чтобы начать",  reply_markup=gen_first_keyboard())
             storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
@@ -94,8 +93,15 @@ def booking(message):
                                       state='choose_brand')
                     storage.set_data(chat_id=message.chat.id, user_id=message.from_user.id,
                                       key='type',value=message.text)
+                elif (message.text == 'Меню'):
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                                     reply_markup=gen_first_keyboard())
+                    storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
+
+                    storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id, state='choose_button')
                 else:
                     bot.send_message(message.chat.id, "Ошибка. Поробуй еще раз")
+
             case 'choose_brand':
                 if (message.text in equipment_catalog[storage.get_data(chat_id=message.chat.id, user_id=message.from_user.id)['type']]):
                     storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id,

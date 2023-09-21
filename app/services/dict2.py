@@ -344,7 +344,7 @@ equipment={
         "Power": "2500W",
         "Weight": "77.5 kg"
     },
-    "GRIVEN KALEIO": {
+    "GRIVEN KALEIDO": {
         "Default": "5 CH",
         "Power": "575W",
         "Weight": "31 kg"

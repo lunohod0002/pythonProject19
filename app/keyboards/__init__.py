@@ -22,6 +22,8 @@ def gen_main_keyboard()->ReplyKeyboardMarkup:
     for key in equipment_catalog.keys():
         button = telebot.types.InlineKeyboardButton(text=key, callback_data=key, state=key)
         main_keyboard.row(button)
+    main_keyboard.row("Меню")
+
     return main_keyboard
 def gen_search_keyboard(lis)->InlineKeyboardMarkup:
     main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=1)
@@ -65,6 +67,6 @@ def get_info(tg_id):
 def search_info(s):
     dic1=equipment[s]
     s = str(dic1)
-    s = s.replace(', ', '\n').replace('"', '').replace(" {","\n").replace("{'", '').replace('}', "\n").replace("'", "")
+    s = s.replace(', ', '\n').replace('"', '').replace(" {","\n").replace("{'", '').replace('}', "\n").replace("'", "").replace("Power","\nPower")
     s=" "+s
     return s
