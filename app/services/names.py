@@ -1,5 +1,132 @@
+equipment = {
+    "EK-LIGHTNING COLLIDER BAR RGBW IP65": {
+        "1": "12 CH",
+        "3": "3 CH",
+        "4": "4 CH",
+        "5": "5 CH",
+        "6": "6 CH",
+        "8": "8 CH",
+        "11": "11 CH",
+        "15": "15 CH",
+        "62": "62 CH",
+        "67": "67 CH",
+        "120": "120 CH",
+        "ADVANCED": "71 CH",
+        "ADVANCED 1": "71 CH",
 
-equipment={
+        "Power": "960W",
+        "Weight": "7 kg"
+    },
+    "EK-LIGHTING SHARK BSW IP65": {
+        "1": "30 CH",
+        "2": "25CH",
+        "Power": "650W",
+        "Weight": "36 kg"
+    },
+    "EK-LIGHTNING R3 BEAM WASH": {
+        "16": "16 CH",
+        "20": "20 CH",
+
+        "Power": "310W",
+        "Weight": "6.6 kg"
+    },
+    "ELATION FUSE PROFILE": {
+        "Standard": "38 CH",
+        "Extended": "59 CH",
+        "CMY": "38 CH",
+        "CMY Extended": "59 CH",
+        "Power": "540W",
+        "Weight": "25 kg"
+    },
+    "ASTERA AX5 LED PAR": {
+        "1-RGB": "3 CH",
+        "2-RGBS": "4 CH",
+        "3-RGBAW": "5 CH",
+        "4-DIM RGB": "4 CH",
+        "5-DIM RGBW": "5 CH",
+        "6-DIM RGBAW": "6 CH",
+        "7-RGB CCT DIM IND": "6 CH",
+        "8-RGBS": "4 CH",
+        "9-RGBWS": "5 CH",
+        "10-RGBAWS": "6 CH",
+        "11-DIM RGBS": "4 CH",
+        "12-DIM RGBWS": "6 CH",
+        "13-DIM RGBAWS": "7 CH",
+        "14-RGB CCT DIM": "7 CH",
+        "15-EFFECT MODE FIX": "13 CH",
+        "16-EFFECT MODE RGB": "21 CH",
+
+        "Power": "45W",
+        "Weight": "3.4 kg"
+    },
+    "ASTERA TITAN TUBE": {
+        "1-RGB": "3 CH",
+        "2-RGBS": "4 CH",
+        "3-RGBAW": "5 CH",
+        "4-DIM RGB": "4 CH",
+        "5-DIM RGBW": "5 CH",
+        "6-DIM RGBAW": "6 CH",
+        "7-RGB CCT DIM IND": "6 CH",
+        "8-RGBWS": "5 CH",
+        "9-RGBAWS": "6 CH",
+        "10-DIM RGBS": "5 CH\n",
+        "11-DIM RGBWS": "6 CH",
+        "12-DIM RGBAWS": "7 CH",
+        "13-RGB CCT DIM IND S": "7 CH",
+        "14-EFFECT MODE FIX": "13 CH",
+        "15-EFFECT MODE RGB": "21 CH",
+        "16-RGB.RGB.": "15 CH",
+        "17-RGB RGB": "12 CH",
+        "18-RGBW RGBW:": "16 CH",
+        "19-RGBAW RGBAW": "20 CH",
+        "20-DIM RGB DIM RGB": "16 CH\n",
+        "21-DIM RGBW DIM RGBW": "20 CH",
+        "22-DIM RGBAW DIM RGBAW": "24 CH",
+        "23-RGB CCT DIM IND": "24 CH",
+        "24-RGB.RGBS": "15 CH",
+        "25-RGB RGB .. S": "13 CH",
+        "26-RGBW RGBW .. S": "17 CH",
+        "27-RGBAW RGBAW .. S": "21 CH",
+        "28-DIM RGB DIM RGB .. S": "17 CH",
+        "29-DIM RGBW DIM RGBW .. S": "21 CH",
+        "30-DIM RGBAW DIM RGBAW .. S": "25 CH\n",
+        "31-RGB CCT DIM IND S": "25 CH",
+        "32-RGBS RGBS": "16 CH",
+        "33-RGB RGB .. SS": "16 CH",
+        "34-RGBWS RGBWS": "20 CH",
+        "35-RGBAWS RGBAWS": "24 CH",
+        "36-DIM RGBS DIM RGBS": "20 CH",
+        "37-DIM RGBWS DIM RGBWS": "24 CH",
+        "38-DIM RGBAWS DIM RGBAWS": "28 CH",
+        "39-RGB CCT DIM IND S": "28 CH",
+        "40-RGB.RGB.": "63 CH\n",
+        "41-RGB RGB": "48 CH",
+        "42-RGBW RGBW": "64 CH",
+        "43-RGBAW RGBAW": "80 CH",
+        "44-DIM RGB DIM RGB": "64 CH",
+        "45-DIM RGBW DIM RGBW": "80 CH",
+        "46-DIM RGBAW DIM RGBAW": "96 CH",
+        "47-RGB CCT DIM IND": "96 CH",
+        "48-RGB.RGBS": "63 CH",
+        "49-RGB RGB .. S": "49 CH",
+        "50-RGBW RGBW .. S": "65 CH\n",
+        "51-RGBAW RGBAW": "81 CH",
+        "52-DIM RGB DIM RGB .. S": "65 CH",
+        "53-DIM RGBW DIM RGBW .. S": "81 CH",
+        "54-DIM RGBAW DIM RGBAW .. S": "97 CH",
+        "56-RGB CCT DIM IND S": "97 CH",
+        "57-RGBS RGBS": "64 CH",
+        "58-RGB RGB .. SS": "64 CH",
+        "59-RGBWS RGBWS": "80 CH",
+        "60-RGBAWS RGBAWS": "96 CH\n",
+        "61-DIM RGBS DIM RGBS": "80 CH",
+        "62-DIM RGBWS DIM RGBWS": "96 CH",
+        "63-DIM RGBAWS DIM RGBAWS": "112 CH",
+        "64-RGB CCT DIM IND S": "112 CH",
+        "Power": "72W",
+        "Weight": "1.3 kg"
+    },
+
     "MARTIN MAC III PERFORMANCE": {
         "Basic": "34 CH",
         "Extended": "40 CH",
@@ -12,6 +139,13 @@ equipment={
         "Power": "1805W",
         "Weight": "53.5 kg"
     },
+    "EK-LIGHTING SHARK BSW IP65": {
+        "1": "30 CH",
+        "2": "25CH",
+        "Power": "650W",
+        "Weight": "36 kg"
+    },
+
     "GLP X4 BAR 20": {
         "Standard": "34 CH",
         "Compressed": "20 CH",
@@ -198,10 +332,10 @@ equipment={
         "Power": "1225W",
         "Weight": "37.9 kg"
     },
-    "VARILITE VL 1000 AS": {
-        "": "27 CH",
-        "Power": "665W",
-        "Weight": "28 kg"
+    "VL 1000 AS": {
+        "16-Bit": "27 CH",
+        "Power": "575W",
+        "Weight": "27 kg"
     },
     "CLAYPAKY SHARPY": {
         "Stnd": "16 CH",
@@ -210,12 +344,40 @@ equipment={
         "Power": "350W",
         "Weight": "19 kg"
     },
-    "VARI LITE 6000 BEAM": {
+
+    "CLAYPAKY CP COLOR 400": {
+        "Standard": "4 CH",
+        "Power": "400W",
+        "Weight": "22 kg"
+    },
+    "VL 6000 BEAM": {
         "16-Bit": "23 CH",
         "Vect": "20 CH",
 
         "Power": "2140W",
         "Weight": "19 kg"
+    },
+    "ROBE BMFL FOLLOWSPOT": {
+        "1": "33 CH",
+        "2": "27 CH",
+
+        "Power": "2000W",
+        "Weight": "35 kg"
+    },
+    "ROBE T2 PROFILE": {
+        "1": "52 CH",
+        "2": "36 CH",
+        "3": "56 CH",
+
+        "Power": "850W",
+        "Weight": "36.9 kg"
+    },
+    "ROBE LED BEAM 150": {
+        "1": "22 CH",
+        "2": "16 CH",
+
+        "Power": "220W",
+        "Weight": "5.7 kg"
     },
     "CLAYPAKY MYTHOS II": {
         "Standard": "30 CH",

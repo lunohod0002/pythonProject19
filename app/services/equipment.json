@@ -4,7 +4,7 @@
             "type":"Светодиодное оборудование",
             "brand":"GLP",
             "name":"GLP X4 BAR 20",
-            "settings":{
+            "modes":[
                 "Standard": "34 CH",
                 "Compressed": "20 CH",
                 "HI-Res": "35 CH",
@@ -14,7 +14,7 @@
                 "Single-Pixel HR": "89 CH",
                 "Power": "550W",
                 "Weight": "16 kg"}
-        },
+        ]
         {
             "type": "Светодиодное оборудование",
             "brand": "GLP",
@@ -425,8 +425,8 @@
             }
         },{
             "type":"Светодиодные прожекторы с полным вращением",
-            "brand":"JB-LIGHTNING WASH",
-            "name":"JB-LIGHTING A7 ZOOM",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 301 WASH",
             "settings":{
                 "Standard 8 RGB": "16 CH",
                 "Standard 16 RGB": "19 CH",
@@ -438,14 +438,17 @@
             }
         },{
             "type":"Светодиодные прожекторы с полным вращением",
-            "brand":"CLAYPAKY BEAM",
-            "name":"CLAYPAKY AXCOR BEAM 300",
-            "settings":{
-                "Standard": "14 CH",
-                "Sharpy": "16 CH",
+            "brand":"MARTIN WASH",
+            "name":"MARTIN MAC 101",
 
-                "Power": "221W",
-                "Weight": "17.6 kg"
+            "settings":{
+                "Standard 8 RGB": "16 CH",
+                "Standard 16 RGB": "19 CH",
+                "Compressed 8 RGB": "12 CH",
+                "Compressed 16 RGB": "15 CH",
+
+                "Power": "350W",
+                "Weight": "8.9 kg"
             }
         },
         {
