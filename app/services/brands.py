@@ -1,5 +1,5 @@
 brands = {
-    "EK-Lightning": {
+    "EK-LIGHTNING": {
         "EK-Lightning COLLIDER BAR RGBW IP65": {
             "1": "12 CH",
             "3": "3 CH",
