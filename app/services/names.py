@@ -32,7 +32,7 @@ equipment = {
         "15CH": "15 CH",
         "62CH": "62 CH",
         "67CH": "67 CH",
-        "120FH": "120 CH",
+        "120CH": "120 CH",
         "ADVANCED-ADVANCED 1": "71 CH",
 
         "Power": "960W",

@@ -5,12 +5,14 @@ from datetime import datetime
 from app.services.brands import brands
 from telebot.types import ReplyKeyboardRemove, Message
 from app.services.names import equipment
-from app.services import storage
+from app.services import storage,get_all_id
 from app.services.keys import keys3
-from app.keyboards import gen_main_keyboard, gen_search_keyboard, gen_first_keyboard, \
-    gen_second_keyboard, gen_third_keyboard, get_info, search_info, get_brands_keyboard, get_second_brand_keybord, \
-    get_info_brand
+from app.keyboards import gen_main_keyboard, gen_search_keyboard, admin_start_keybooard, \
+    get_info_brand, gen_second_keyboard, gen_third_keyboard, get_info, search_info, get_brands_keyboard, \
+    get_second_brand_keybord, user_start_keyboard,get_mail_keyboard
+
 from main import bot
+from app.handlers.start import start
 
 keys = []
 for key in equipment_catalog.keys():
@@ -21,24 +23,14 @@ for key in equipment.keys():
 kol = 0
 
 
-@bot.message_handler(commands=['start'])
-def start(message: Message):
-    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать", reply_markup=gen_first_keyboard())
-    log_file = open("info.log", "a")
-    log_file.write(
-        f"\n[INFO {datetime.now()}]:  {message.from_user.username} {message.chat.id}")
-    log_file.close()
-    storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
-    storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id,
-                      state='choose_button')
-    bot.set_my_commands([
-        telebot.types.BotCommand("/start", "Запуск бота")
-    ])
-
-
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query(call):
-    if call.data == 'catalog_types':
+    if call.data == 'mail':
+        if (int(call.message.chat.id)==153559013):
+            bot.send_message(call.from_user.id, "Напишите сообщение всем пользователям")
+            storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id, state='send_mail')
+
+    elif call.data == 'catalog_types':
         bot.send_message(call.from_user.id, "Выберите тип прибора",
                          reply_markup=gen_main_keyboard())
         storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
@@ -68,15 +60,45 @@ def callback_query(call):
         bot.answer_callback_query(callback_query_id=call.id, show_alert=True)
     elif call.data == "menu":
 
-        bot.send_message(call.from_user.id, "Привет! Нажми на кнопку, чтобы начать", reply_markup=gen_first_keyboard())
+        if call.message.chat.id == 153559013:
+            bot.send_message(call.message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                             reply_markup=admin_start_keybooard())
+        else:
+            bot.send_message(call.message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                             reply_markup=user_start_keyboard())
         storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
 
         storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id, state='choose_button')
         bot.answer_callback_query(callback_query_id=call.id, show_alert=True)
+    elif call.data=="send":
+        answer=storage.get_data(chat_id=call.message.chat.id, user_id=call.from_user.id)['mail']
+        users_id=get_all_id()
+        bot.edit_message_text(text="Сообщение отправлено",chat_id=153559013,message_id=call.message.id)
 
+        for id in users_id:
+                bot.send_message(int(id), answer)
+
+        storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id,
+                          state='sended_mail')
+    elif call.data=="change":
+        bot.edit_message_text(text="Измените сообщение",chat_id=153559013,message_id=call.message.id)
+
+        storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id,
+                          state='send_mail')
+    elif call.data=="cancel":
+        bot.edit_message_text(text="Рассылка отменена",chat_id=153559013,message_id=call.message.id)
+        storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id,
+                          state='choose_button')
 
 @bot.message_handler(content_types=['text'])
 def search(message: Message):
+    if storage.get_state(chat_id=message.chat.id, user_id=message.from_user.id) == 'send_mail':
+        bot.send_message(chat_id=153559013, text=f"Ваше сообщение: {message.text}",reply_markup=get_mail_keyboard())
+        storage.set_data(chat_id=message.chat.id, user_id=message.from_user.id,
+                         key='mail', value=message.text)
+        storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id,
+                          state='sending_mail')
+
     match storage.get_state(chat_id=message.chat.id, user_id=message.from_user.id):
         case 'search':
             log_file = open("info.log", "a")
@@ -118,8 +140,13 @@ def search(message: Message):
                 storage.set_data(chat_id=message.chat.id, user_id=message.from_user.id,
                                  key='brand_type', value=message.text)
             elif message.text == 'Меню':
-                bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
-                                 reply_markup=gen_first_keyboard())
+                if message.chat.id == 153559013:
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                                     reply_markup=admin_start_keybooard())
+                else:
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                                     reply_markup=user_start_keyboard())
+
                 storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
 
                 storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id, state='choose_button')
@@ -168,8 +195,13 @@ def search(message: Message):
                 storage.set_data(chat_id=message.chat.id, user_id=message.from_user.id,
                                  key='type', value=message.text)
             elif (message.text == 'Меню'):
-                bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
-                                 reply_markup=gen_first_keyboard())
+                if message.chat.id == 153559013:
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                                     reply_markup=admin_start_keybooard())
+                else:
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                                     reply_markup=user_start_keyboard())
+
                 storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
 
                 storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id, state='choose_button')

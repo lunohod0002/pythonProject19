@@ -3,24 +3,43 @@ import telebot
 from app.services.brands import brands
 from app.services.names import equipment
 from app.services import storage
-from telebot.types import ReplyKeyboardRemove,ReplyKeyboardMarkup,InlineKeyboardMarkup
-keys=[]
+from telebot.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, InlineKeyboardMarkup
+
+keys = []
 for key in equipment_catalog.keys():
     keys.append(key)
-keys2=[]
+keys2 = []
 for key in equipment.keys():
     keys2.append(key)
-kol=0
-def get_brands_keyboard()->ReplyKeyboardMarkup:
+kol = 0
+
+
+def get_mail_keyboard() -> InlineKeyboardMarkup:
+    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=3)
+    send_button = telebot.types.InlineKeyboardButton(text='Отправить', callback_data="send")
+    cancel_button = telebot.types.InlineKeyboardButton(text='Отменить', callback_data="cancel")
+    change_button = telebot.types.InlineKeyboardButton(text='Изменить',
+                                                      callback_data="change")
+
+    main_keyboard.add(send_button)
+    main_keyboard.add(cancel_button)
+    main_keyboard.add(change_button)
+
+    return main_keyboard
+
+
+def get_brands_keyboard() -> ReplyKeyboardMarkup:
     main_keyboard = telebot.types.ReplyKeyboardMarkup()
     for key in brands.keys():
         button = telebot.types.InlineKeyboardButton(text=key)
         main_keyboard.row(button)
     main_keyboard.row("Меню")
     return main_keyboard
-def get_second_brand_keybord(message)->ReplyKeyboardMarkup:
+
+
+def get_second_brand_keybord(message) -> ReplyKeyboardMarkup:
     main_keyboard = telebot.types.ReplyKeyboardMarkup()
-    dic=brands[message]
+    dic = brands[message]
     for key in dic.keys():
         button = telebot.types.InlineKeyboardButton(text=key)
         main_keyboard.row(button)
@@ -28,18 +47,35 @@ def get_second_brand_keybord(message)->ReplyKeyboardMarkup:
     return main_keyboard
 
 
-def gen_first_keyboard()->InlineKeyboardMarkup:
-    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=2)
-    second=telebot.types.InlineKeyboardButton(text='Поиск \U0001F50E',callback_data="search")
-    types=telebot.types.InlineKeyboardButton(text='Каталог \U0001F4D6',callback_data="catalog_types")
-    brand=telebot.types.InlineKeyboardButton(text='Каталог брендов \U0001F4D6',callback_data="catalog_brands")
+def user_start_keyboard() -> InlineKeyboardMarkup:
+    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=3)
+    search_button = telebot.types.InlineKeyboardButton(text='Поиск \U0001F50E', callback_data="search")
+    types_button = telebot.types.InlineKeyboardButton(text='Каталог \U0001F4D6', callback_data="catalog_types")
+    brand_button = telebot.types.InlineKeyboardButton(text='Каталог брендов \U0001F4D6', callback_data="catalog_brands")
 
-    main_keyboard.add(types)
-    main_keyboard.add(brand)
-    main_keyboard.add(second)
+    main_keyboard.add(types_button)
+    main_keyboard.add(brand_button)
+    main_keyboard.add(search_button)
 
     return main_keyboard
-def gen_main_keyboard()->ReplyKeyboardMarkup:
+
+
+def admin_start_keybooard() -> InlineKeyboardMarkup:
+    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=3)
+    search_button = telebot.types.InlineKeyboardButton(text='Поиск \U0001F50E', callback_data="search")
+    types_button = telebot.types.InlineKeyboardButton(text='Каталог \U0001F4D6', callback_data="catalog_types")
+    brand_button = telebot.types.InlineKeyboardButton(text='Каталог брендов \U0001F4D6', callback_data="catalog_brands")
+    mail_button = telebot.types.InlineKeyboardButton(text='Отправить рассылку \U0001F4E7', callback_data="mail")
+
+    main_keyboard.add(types_button)
+    main_keyboard.add(brand_button)
+    main_keyboard.add(search_button)
+    main_keyboard.add(mail_button)
+
+    return main_keyboard
+
+
+def gen_main_keyboard() -> ReplyKeyboardMarkup:
     main_keyboard = telebot.types.ReplyKeyboardMarkup()
     for key in equipment_catalog.keys():
         button = telebot.types.InlineKeyboardButton(text=key, callback_data=key, state=key)
@@ -47,29 +83,33 @@ def gen_main_keyboard()->ReplyKeyboardMarkup:
     main_keyboard.row("Меню")
 
     return main_keyboard
-def gen_search_keyboard(lis)->InlineKeyboardMarkup:
+
+
+def gen_search_keyboard(lis) -> InlineKeyboardMarkup:
     main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=1)
     for key in lis:
-
         button = telebot.types.InlineKeyboardButton(text=key, callback_data=key)
         main_keyboard.add(button)
     main_keyboard.add(telebot.types.InlineKeyboardButton(text="Меню", callback_data="menu"))
 
     return main_keyboard
 
-def gen_second_keyboard(message)->ReplyKeyboardMarkup:
-    dic1=equipment_catalog[message]
+
+def gen_second_keyboard(message) -> ReplyKeyboardMarkup:
+    dic1 = equipment_catalog[message]
     second_keyboard = telebot.types.ReplyKeyboardMarkup()
     for key in dic1.keys():
-        button = telebot.types.InlineKeyboardButton(text=key, callback_data=message+";"+key, state=message+";"+key)
+        button = telebot.types.InlineKeyboardButton(text=key, callback_data=message + ";" + key,
+                                                    state=message + ";" + key)
         second_keyboard.row(button)
     second_keyboard.row("\U0001F519Назад")
 
     return second_keyboard
 
-def gen_third_keyboard(tg_id) ->ReplyKeyboardMarkup:
-    costorage=storage.get_data(chat_id=tg_id,user_id=tg_id)
-    dic1=equipment_catalog[costorage['type']][costorage['brand']]
+
+def gen_third_keyboard(tg_id) -> ReplyKeyboardMarkup:
+    costorage = storage.get_data(chat_id=tg_id, user_id=tg_id)
+    dic1 = equipment_catalog[costorage['type']][costorage['brand']]
     second_keyboard = telebot.types.ReplyKeyboardMarkup()
     for key in dic1.keys():
         button = telebot.types.InlineKeyboardButton(text=key, callback_data=key)
@@ -79,23 +119,34 @@ def gen_third_keyboard(tg_id) ->ReplyKeyboardMarkup:
 
     return second_keyboard
 
+
 def get_info(tg_id):
-    costorage=storage.get_data(chat_id=tg_id,user_id=tg_id)
-    dic1=equipment_catalog[costorage['type']][costorage['brand']][costorage['name']]
+    costorage = storage.get_data(chat_id=tg_id, user_id=tg_id)
+    dic1 = equipment_catalog[costorage['type']][costorage['brand']][costorage['name']]
     s = str(dic1)
-    s = s.replace(', ', '\n').replace('"', '').replace(" {","\n").replace("{'", '').replace('}', "\n").replace("'", "").replace("Power","\nPower")
-    s=" "+s
+    s = s.replace(', ', '\n').replace('"', '').replace(" {", "\n").replace("{'", '').replace('}', "\n").replace("'",
+                                                                                                                "").replace(
+        "Power", "\nPower")
+    s = " " + s
     return s
+
+
 def get_info_brand(tg_id):
-    costorage=storage.get_data(chat_id=tg_id,user_id=tg_id)
-    dic1=brands[costorage['brand_type']][costorage['brand_name']]
+    costorage = storage.get_data(chat_id=tg_id, user_id=tg_id)
+    dic1 = brands[costorage['brand_type']][costorage['brand_name']]
     s = str(dic1)
-    s = s.replace(', ', '\n').replace('"', '').replace(" {","\n").replace("{'", '').replace('}', "\n").replace("'", "").replace("Power","\nPower")
-    s=" "+s
+    s = s.replace(', ', '\n').replace('"', '').replace(" {", "\n").replace("{'", '').replace('}', "\n").replace("'",
+                                                                                                                "").replace(
+        "Power", "\nPower")
+    s = " " + s
     return s
+
+
 def search_info(s):
-    dic1=equipment[s]
+    dic1 = equipment[s]
     s = str(dic1)
-    s = s.replace(', ', '\n').replace('"', '').replace(" {","\n").replace("{'", '').replace('}', "\n").replace("'", "").replace("Power","\nPower")
-    s=" "+s
+    s = s.replace(', ', '\n').replace('"', '').replace(" {", "\n").replace("{'", '').replace('}', "\n").replace("'",
+                                                                                                                "").replace(
+        "Power", "\nPower")
+    s = " " + s
     return s

@@ -451,6 +451,19 @@
                 "Weight": "8.9 kg"
             }
         },
+      {
+      "type": "Светодиодные прожекторы с полным вращением",
+      "brand": "MARTIN WASH",
+      "name": "MARTIN MAC 101",
+      "settings": {
+        "Standard 8 RGB": "16 CH",
+        "Standard 16 RGB": "19 CH",
+        "Compressed 8 RGB": "12 CH",
+        "Compressed 16 RGB": "15 CH",
+        "Power": "350W",
+        "Weight": "8.9 kg"
+      }
+    },
         {
             "type": "Светодиодное оборудование",
             "brand": "GLP",

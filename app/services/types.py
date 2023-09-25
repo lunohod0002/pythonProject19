@@ -242,20 +242,18 @@ equipment_catalog = {
         },
         "EK-LIGHTNING": {
             "EK-LIGHTNING COLLIDER BAR RGBW IP65": {
-                "1": "12 CH",
-                "3": "3 CH",
-                "4": "4 CH",
-                "5": "5 CH",
-                "6": "6 CH",
-                "8": "8 CH",
-                "11": "11 CH",
-                "15": "15 CH",
-                "62": "62 CH",
-                "67": "67 CH",
-                "120": "120 CH",
-                "ADVANCED": "71 CH",
-                "ADVANCED 1": "71 CH",
-
+                "1CH": "12 CH",
+                "3CH": "3 CH",
+                "4CH": "4 CH",
+                "5CH": "5 CH",
+                "6CH": "6 CH",
+                "8CH": "8 CH",
+                "11CH": "11 CH",
+                "15CH": "15 CH",
+                "62CH": "62 CH",
+                "67CH": "67 CH",
+                "120CH": "120 CH",
+                "ADVANCED-ADVANCED 1": "71 CH",
                 "Power": "960W",
                 "Weight": "7 kg"
             }
