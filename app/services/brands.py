@@ -1,32 +1,31 @@
 brands = {
     "EK-LIGHTNING": {
-        "EK-Lightning COLLIDER BAR RGBW IP65": {
-            "1": "12 CH",
-            "3": "3 CH",
-            "4": "4 CH",
-            "5": "5 CH",
-            "6": "6 CH",
-            "8": "8 CH",
-            "11": "11 CH",
-            "15": "15 CH",
-            "62": "62 CH",
-            "67": "67 CH",
-            "120": "120 CH",
-            "ADVANCED": "71 CH",
-            "ADVANCED 1": "71 CH",
+        "EK-LIGHTNING COLLIDER BAR RGBW IP65": {
+         "1CH": "1 CH",
+        "3CH": "3 CH",
+        "4CH": "4 CH",
+        "5CH": "5 CH",
+        "6CH": "6 CH",
+        "8CH": "8 CH",
+        "11CH": "11 CH",
+        "15CH": "15 CH",
+        "62CH": "62 CH",
+        "67CH": "67 CH",
+        "120FH": "120 CH",
+        "ADVANCED-ADVANCED 1": "71 CH",
 
             "Power": "960W",
             "Weight": "7 kg"
         },
-        "EK-Lightning SHARK BSW IP65": {
+        "EK-LIGHTNING SHARK BSW IP65": {
             "1": "30 CH",
             "2": "25CH",
             "Power": "650W",
             "Weight": "36 kg"
         },
-        "EK-Lightning R3 BEAM WASH": {
-            "16": "16 CH",
-            "20": "20 CH",
+        "EK-LIGHTNING R3 BEAM WASH": {
+            "16CH": "16 CH",
+            "20CH": "20 CH",
 
             "Power": "310W",
             "Weight": "6.6 kg"
@@ -457,23 +456,23 @@ brands = {
     },
     "ROBE": {
         "ROBE BMFL FOLLOWSPOT": {
-            "1": "33 CH",
-            "2": "27 CH",
+            "Mode 1": "33 CH",
+            "Mode 2": "27 CH",
 
             "Power": "2000W",
             "Weight": "35 kg"
         },
         "ROBE T2 PROFILE": {
-            "1": "52 CH",
-            "2": "36 CH",
-            "3": "56 CH",
+            "Mode 1": "52 CH",
+            "Mode 2": "36 CH",
+            "Mode 3": "56 CH",
 
             "Power": "850W",
             "Weight": "36.9 kg"
         },
         "ROBE LED BEAM 150": {
-            "1": "22 CH",
-            "2": "16 CH",
+            "Mode 1": "22 CH",
+            "Mode 2": "16 CH",
 
             "Power": "220W",
             "Weight": "5.7 kg"
