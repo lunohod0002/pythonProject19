@@ -1,7 +1,7 @@
 equipment = {
     "ROBE BMFL FOLLOWSPOT": {
-        "Mose 1": "33 CH",
-        "Mode 2": "27 CH",
+        "1": "33 CH",
+        "2": "27 CH",
 
         "Power": "2000W",
         "Weight": "35 kg"
@@ -16,13 +16,13 @@ equipment = {
     },
     "ROBE LED BEAM 150": {
         "Mode 1": "22 CH",
-        "Mode w": "16 CH",
+        "Mode 2": "16 CH",
 
         "Power": "220W",
         "Weight": "5.7 kg"
     },
     "EK-LIGHTNING COLLIDER BAR RGBW IP65": {
-        "1": "1 CH",
+        "1CH": "1 CH",
         "3CH": "3 CH",
         "4CH": "4 CH",
         "5CH": "5 CH",
@@ -308,9 +308,7 @@ equipment = {
         "Power": "533W",
         "Weight": "18 kg"
     },
-    "ASTERA AX5 LED PAR": {
-        "Default": "OO CH"
-    },
+
     "MARTIN MAC 600 WASH": {
         "1": "10 CH",
         "2": "12 CH",

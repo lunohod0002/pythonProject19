@@ -17,13 +17,13 @@ brands = {
             "Power": "960W",
             "Weight": "7 kg"
         },
-        "EK-LIGHTNING SHARK BSW IP65": {
+        "EK-Lightning SHARK BSW IP65": {
             "1": "30 CH",
             "2": "25CH",
             "Power": "650W",
             "Weight": "36 kg"
         },
-        "EK-LIGHTNING R3 BEAM WASH": {
+        "EK-Lightning R3 BEAM WASH": {
             "16CH": "16 CH",
             "20CH": "20 CH",
 
@@ -456,8 +456,8 @@ brands = {
     },
     "ROBE": {
         "ROBE BMFL FOLLOWSPOT": {
-            "Mode 1": "33 CH",
-            "Mode 2": "27 CH",
+            "1": "33 CH",
+            "2": "27 CH",
 
             "Power": "2000W",
             "Weight": "35 kg"

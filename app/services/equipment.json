@@ -4,7 +4,7 @@
             "type":"Светодиодное оборудование",
             "brand":"GLP",
             "name":"GLP X4 BAR 20",
-            "modes":[
+            "settings":{
                 "Standard": "34 CH",
                 "Compressed": "20 CH",
                 "HI-Res": "35 CH",
@@ -14,7 +14,7 @@
                 "Single-Pixel HR": "89 CH",
                 "Power": "550W",
                 "Weight": "16 kg"}
-        ]
+        },
         {
             "type": "Светодиодное оборудование",
             "brand": "GLP",

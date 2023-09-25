@@ -242,7 +242,7 @@ equipment_catalog = {
         },
         "EK-LIGHTNING": {
             "EK-LIGHTNING COLLIDER BAR RGBW IP65": {
-                "1CH": "1 CH",
+                "1": "12 CH",
                 "3": "3 CH",
                 "4": "4 CH",
                 "5": "5 CH",
