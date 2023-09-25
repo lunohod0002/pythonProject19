@@ -3,7 +3,7 @@ import telebot
 from app.services.brands import brands
 from app.services.names import equipment
 from app.services import storage
-from telebot.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, InlineKeyboardMarkup
+from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup
 
 keys = []
 for key in equipment_catalog.keys():
@@ -19,7 +19,7 @@ def get_mail_keyboard() -> InlineKeyboardMarkup:
     send_button = telebot.types.InlineKeyboardButton(text='Отправить', callback_data="send")
     cancel_button = telebot.types.InlineKeyboardButton(text='Отменить', callback_data="cancel")
     change_button = telebot.types.InlineKeyboardButton(text='Изменить',
-                                                      callback_data="change")
+                                                       callback_data="change")
 
     main_keyboard.add(send_button)
     main_keyboard.add(cancel_button)

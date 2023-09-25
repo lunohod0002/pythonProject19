@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="Update:brands.py names.py types.py">
-      <change afterPath="$PROJECT_DIR$/app/handlers/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
+    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="change:main.py">
+      <change beforePath="$PROJECT_DIR$/app/handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/brands.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/brands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/equipment.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/equipment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/names.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/names.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +35,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19\app\services" />
@@ -153,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695635709117</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change:main.py">
+      <created>1695681564173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695681564173</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +177,8 @@
     <MESSAGE value="add: new firelights" />
     <MESSAGE value="add: new firelights2" />
     <MESSAGE value="Update:brands.py names.py types.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update:brands.py names.py types.py" />
+    <MESSAGE value="change:main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="change:main.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
