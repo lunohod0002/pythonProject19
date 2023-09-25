@@ -24,7 +24,10 @@ kol = 0
 @bot.message_handler(commands=['start'])
 def start(message: Message):
     bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать", reply_markup=gen_first_keyboard())
-
+    log_file = open("info.log", "a")
+    log_file.write(
+        f"\n[INFO {datetime.now()}]:  {message.from_user.username} {message.chat.id}")
+    log_file.close()
     storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
     storage.set_state(chat_id=message.chat.id, user_id=message.from_user.id,
                       state='choose_button')
@@ -78,7 +81,7 @@ def search(message: Message):
         case 'search':
             log_file = open("info.log", "a")
             log_file.write(
-                f"\n[INFO {datetime.now()}]:  {message.from_user.username} {message.text}")
+                f"\n[INFO {datetime.now()}]:  {message.from_user.username} {message.chat.id}")
             log_file.close()
             if (len(message.text) > 2):
                 lis = list()

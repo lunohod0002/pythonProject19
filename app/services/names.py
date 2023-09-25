@@ -369,7 +369,7 @@ equipment = {
     },
     "CLAYPAKY MYTHOS II": {
         "Standard": "30 CH",
-        "Extended": "34 CH",
+        "Vector": "34 CH",
 
         "Power": "700W",
         "Weight": "32 kg"
