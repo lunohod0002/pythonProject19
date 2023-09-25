@@ -15,7 +15,7 @@ kol = 0
 
 
 def get_mail_keyboard() -> InlineKeyboardMarkup:
-    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=3)
+    main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=2)
     send_button = telebot.types.InlineKeyboardButton(text='Отправить', callback_data="send")
     cancel_button = telebot.types.InlineKeyboardButton(text='Отменить', callback_data="cancel")
     change_button = telebot.types.InlineKeyboardButton(text='Изменить',

@@ -1,7 +1,7 @@
 import telebot
+
 storage = telebot.StateMemoryStorage()
 auth_storage = telebot.StateMemoryStorage()
-
 
 
 def get_all_id():
@@ -14,6 +14,4 @@ def get_all_id():
             users_id.append(user_id)
     return (set(users_id))
 
-
 # Для отправки рассылки вызовите функцию send_message_to_all_users()
-
