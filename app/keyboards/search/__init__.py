@@ -15,7 +15,7 @@ kol = 0
 
 
 def search_info(name):
-    with open('C:/Users/Георгий/PycharmProjects/pythonProject19/app/services/equipment.json', 'r',
+    with open('app/services/equipment.json', 'r',
               encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:
