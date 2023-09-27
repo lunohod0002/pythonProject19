@@ -1,5 +1,6 @@
 import telebot
-bot = telebot.TeleBot('5956975897:AAG9deyfFYO03yv8eWqrW9wubdWJdKLAE9E')
+from app.config import token,admin_id
+bot = telebot.TeleBot(token)
 from app.handlers import *
 if __name__ == '__main__':
     bot.set_chat_menu_button()

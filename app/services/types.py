@@ -242,7 +242,7 @@ equipment_catalog = {
         },
         "EK-LIGHTNING": {
             "EK-LIGHTNING COLLIDER BAR RGBW IP65": {
-                "1CH": "12 CH",
+                "1CH": "1 CH",
                 "3CH": "3 CH",
                 "4CH": "4 CH",
                 "5CH": "5 CH",
@@ -380,16 +380,16 @@ equipment_catalog = {
     "Светодиодные прожекторы с полным вращением": {
         "ROBE": {
             "ROBE T2 PROFILE": {
-                "1": "52 CH",
-                "2": "36 CH",
-                "3": "56 CH",
+                "Mode 1": "52 CH",
+                "Mode 2": "36 CH",
+                "Mode 3": "56 CH",
 
                 "Power": "850W",
                 "Weight": "36.9 kg"
             },
             "ROBE LED BEAM 150": {
-                "1": "22 CH",
-                "2": "16 CH",
+                "Mode 1": "22 CH",
+                "Mode 2": "16 CH",
 
                 "Power": "220W",
                 "Weight": "5.7 kg"
@@ -461,7 +461,7 @@ equipment_catalog = {
                 "Power": "221W",
                 "Weight": "17.6 kg"
             },
-            "CLAYPAKY B-EYE K25 ": {
+            "CLAYPAKY B-EYE K25": {
                 "Standard": "22 CH",
                 "Shape": "30 CH",
 

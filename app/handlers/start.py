@@ -3,18 +3,18 @@ import datetime
 from datetime import datetime
 from telebot.types import Message
 from app.services import storage
-from app.keyboards import admin_start_keybooard
-from main import bot
+from app.keyboards.start import admin_start_keybooard,user_start_keyboard
+from main import bot,admin_id
 
 
 @bot.message_handler(commands=['start'])
 def start(message: Message):
-    if message.chat.id == 153559013:
+    if message.chat.id == int(admin_id):
         bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
                          reply_markup=admin_start_keybooard())
     else:
         bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
-                         reply_markup=admin_start_keybooard())
+                         reply_markup=user_start_keyboard())
 
     log_file = open("info.log", "a")
     log_file.write(

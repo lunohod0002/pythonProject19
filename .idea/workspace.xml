@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="change:main.py">
+    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="work please">
+      <change afterPath="$PROJECT_DIR$/app/keyboards/catalog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/keyboards/search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/keyboards/start/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/equipment.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/equipment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,17 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19" />
       <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19\app\services" />
     </key>
   </component>
@@ -49,6 +68,8 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="API_TOKEN" value="6396475143:AAENCBa4wUJ4eUJ-tkE0R2T-vWQYPljx6kI" />
+        <env name="MANAGER_ID" value="153559013" />
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
@@ -56,6 +77,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -152,8 +183,33 @@
       <option name="project" value="LOCAL" />
       <updated>1695681564173</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="work please">
+      <created>1695681808091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695681808091</updated>
+    </task>
+    <task id="LOCAL-00013" summary="work please">
+      <created>1695681876742</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695681876742</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -178,7 +234,8 @@
     <MESSAGE value="add: new firelights2" />
     <MESSAGE value="Update:brands.py names.py types.py" />
     <MESSAGE value="change:main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="change:main.py" />
+    <MESSAGE value="work please" />
+    <option name="LAST_COMMIT_MESSAGE" value="work please" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -212,6 +269,11 @@
           <url>file://$PROJECT_DIR$/app/services/brands.py</url>
           <line>449</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/services/types.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
