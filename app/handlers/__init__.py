@@ -80,7 +80,6 @@ def callback_query(call):
         bot.edit_message_text(text="Сообщение отправлено", chat_id=int(admin_id), message_id=call.message.id)
 
         for id in users_id:
-            print(id)
             bot.send_message(int(id), answer)
 
         storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id,

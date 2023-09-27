@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="work please">
-      <change afterPath="$PROJECT_DIR$/app/keyboards/catalog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/keyboards/search/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/keyboards/start/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/equipment.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/equipment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +53,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="API_TOKEN" value="6396475143:AAENCBa4wUJ4eUJ-tkE0R2T-vWQYPljx6kI" />
+        <env name="API_TOKEN" value="5956975897:AAG9deyfFYO03yv8eWqrW9wubdWJdKLAE9E" />
         <env name="MANAGER_ID" value="153559013" />
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
@@ -197,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695681876742</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="work">
+      <created>1695772845526</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695772845526</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -235,7 +227,8 @@
     <MESSAGE value="Update:brands.py names.py types.py" />
     <MESSAGE value="change:main.py" />
     <MESSAGE value="work please" />
-    <option name="LAST_COMMIT_MESSAGE" value="work please" />
+    <MESSAGE value="work" />
+    <option name="LAST_COMMIT_MESSAGE" value="work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

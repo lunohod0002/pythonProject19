@@ -27,4 +27,3 @@ for key in names:
                       key.split(" ")[0] + "-" + key.split(" ")[3] + " " + key.split(" ")[0] + key.split(" ")[3] + " " +
                       key.replace("-", "") +
                       key))
-    print(keys3)
