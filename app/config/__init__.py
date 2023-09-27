@@ -1,5 +1,2 @@
-import os
-from dotenv import load_dotenv
-load_dotenv()
-token=os.environ.get('API_TOKEN')
-admin_id=os.environ.get('ADMIN_ID')
+token="5956975897:AAG9deyfFYO03yv8eWqrW9wubdWJdKLAE9E"
+admin_id=153559013
