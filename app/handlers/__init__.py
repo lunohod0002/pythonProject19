@@ -23,7 +23,7 @@ keys2 = []
 for key in equipment.keys():
     keys2.append(key)
 kol = 0
-with open('C:/Users/Георгий/PycharmProjects/pythonProject19/app/services/equipment.json', 'r', encoding='utf-8') as f:
+with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 
