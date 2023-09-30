@@ -3,7 +3,7 @@
     {
       "type": "Светодиодное оборудование",
       "brand": "GLP",
-      "name": "GLP X4 BAR 20",
+      "name": "GLP impression X4 BAR 20",
       "settings": {
         "Standard": "34 CH",
         "Compressed": "20 CH",
@@ -15,12 +15,12 @@
         "Power": "550W",
         "Weight": "16 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Impression_X4Bar-program-guide.pdf"
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "GLP",
-      "name": "GLP X4 BAR 10",
+      "name": "GLP impression X4 BAR 10",
       "settings": {
         "Standard": "33 CH",
         "Compressed": "19 CH",
@@ -32,7 +32,7 @@
         "Power": "280W",
         "Weight": "8 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Impression_X4Bar10_DMX_v1.7_EN_DRAFT.pdf"
     },
     {
       "type": "Светодиодное оборудование",
@@ -42,7 +42,8 @@
         "9": "9 CH",
         "Power": "25W",
         "Weight": "1.8 kg"
-      }
+      },
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/X4-atom-White-LED-DMX-Channel-Index.pdf"
     },
     {
       "type": "Светодиодное оборудование",
@@ -118,7 +119,7 @@
         "Power": "12W",
         "Weight": "1.3 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Block-2-Manual.pdf"
     },
     {
       "type": "Светодиодное оборудование",
@@ -138,7 +139,7 @@
         "Power": "480W",
         "Weight": "15 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Force-48-User-Manual.pdf"
     },
     {
       "type": "Светодиодное оборудование",
@@ -190,7 +191,7 @@
         "Power": "533W",
         "Weight": "18 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Force-II-48-User-Manual.pdf"
     },
     {
       "type": "Светодиодное оборудование",
@@ -217,7 +218,7 @@
                 "Power": "45W",
                 "Weight": "3.4 kg"
             },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/AX5-manual-EN-.pdf"
     },
     {
       "type": "Светодиодное оборудование",
@@ -290,7 +291,7 @@
                 "Power": "72W",
                 "Weight": "1.3 kg"
             },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Titan-Manual.pdf"
     },
     {
       "type": "Светодиодное оборудование",
@@ -478,7 +479,7 @@
         "Power": "350W",
         "Weight": "19 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Sharpy_DMX-channels_12.2014_EN.pdf"
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -502,7 +503,7 @@
             "Power": "700W",
             "Weight": "32 kg"
         },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Mythos_DMX-Channels_05.2018.pdf"
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -670,7 +671,7 @@
         "Power": "221W",
         "Weight": "17.6 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/AxcorBeam300_DMX-Channels_10.2018.pdf"
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -729,7 +730,7 @@
         "Power": "700W",
         "Weight": "30 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Supersharpy2_DMX-Channels_10.2018.pdf"
     },
     {
       "type": "Небесные прожекторы",
@@ -753,7 +754,7 @@
         "Power": "1200W",
         "Weight": "11.6 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/JDC1-User-Manual-EN-v3.0-SW1.70-68-18.pdf"
     },
     {
       "type": "Стробоскопы",
@@ -770,7 +771,7 @@
         "Power": "750W",
         "Weight": "9.3 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/PDF-KNV-CA-DMX-Channel-Index-EN-Rev.A.pdf"
     },
     {
       "type": "Стробоскопы",
@@ -787,7 +788,7 @@
         "Power": "750W",
         "Weight": "9.3 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/PDF-KNV-CA-DMX-Channel-Index-EN-Rev.A.pdf"
     },
     {
       "type": "Стробоскопы",
@@ -801,7 +802,7 @@
         "Power": "850W",
         "Weight": "7.2 kg"
       },
-      "manual": "*"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Stormy-StormyCC_DMX-Channels_11.2015.pdf"
     },
     {
       "type": "Стробоскопы",
