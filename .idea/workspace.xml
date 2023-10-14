@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="Update: equipment.json">
+    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="Update: main.py,equipment.json">
+      <change afterPath="$PROJECT_DIR$/app/services/keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/catalog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/catalog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/search/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/start/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/start/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/brands.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/brands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/equipment.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/equipment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/names.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/names.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/info.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19" />
       <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19\app\services" />
+      <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19" />
     </key>
   </component>
   <component name="RunManager">
@@ -240,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696074371228</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update: main.py,equipment.json">
+      <created>1696074967695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696074967695</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -286,41 +307,12 @@
     <MESSAGE value="work6.0" />
     <MESSAGE value="work7.0" />
     <MESSAGE value="Update: equipment.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: equipment.json" />
+    <MESSAGE value="Update: main.py,equipment.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: main.py,equipment.json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/services/brands.py</url>
-          <line>587</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/services/brands.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/services/brands.py</url>
-          <line>148</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/services/brands.py</url>
-          <line>182</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/services/brands.py</url>
-          <line>360</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/services/brands.py</url>
-          <line>449</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app/services/types.py</url>
           <line>2</line>

@@ -1,14 +1,6 @@
-from app.services.types import equipment_catalog
-from app.services.names import equipment
 from telebot.types import  InlineKeyboardMarkup,InlineKeyboardButton
 
-keys = []
-for key in equipment_catalog.keys():
-    keys.append(key)
-keys2 = []
-for key in equipment.keys():
-    keys2.append(key)
-kol = 0
+
 def user_start_keyboard() -> InlineKeyboardMarkup:
     main_keyboard = InlineKeyboardMarkup(row_width=3)
     search_button = InlineKeyboardButton(text='Поиск \U0001F50E', callback_data="search")

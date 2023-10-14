@@ -1,19 +1,10 @@
-from app.services.types import equipment_catalog
 import telebot
-from app.services.names import equipment
 from app.services import storage
 from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
 from app.services import get_all_brands, get_all_types, get_brand_current_names, \
     get_current_brands, get_current_names, get_manual_link
 import json
 
-keys = []
-for key in equipment_catalog.keys():
-    keys.append(key)
-keys2 = []
-for key in equipment.keys():
-    keys2.append(key)
-kol = 0
 
 
 def all_types_keyboard() -> ReplyKeyboardMarkup:

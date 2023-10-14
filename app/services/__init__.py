@@ -116,6 +116,7 @@ def get_all_names():
     for item in data["equipment"]:
         current_name = item["name"]
         names.append(current_name)
+        (item)
     new_list = []
 
     for el in names:
@@ -133,4 +134,23 @@ def get_manual_link(name):
             else :
                 return None
     return None
+def get_keywords_list():
+    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    mas=[]
+    for item in data["equipment"]:
+
+        keywords=item['keywords']
+        mas.append(keywords)
+    new_list = []
+    ist = []
+
+    for i in mas:
+        for el in i:
+            if el not in ist:
+                ist.append(el)
+        if ist not in new_list:
+            new_list.append(ist)
+        ist=[]
+    return new_list
 

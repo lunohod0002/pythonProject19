@@ -32,7 +32,7 @@ brands = {
         }
     },
     "ELATION":{
-        "ELATION FUSE PROFILE":{
+        "ELATION FUSE Profile":{
             "Standard": "38 CH",
             "Extended": "59 CH",
             "CMY": "38 CH",
@@ -146,7 +146,7 @@ brands = {
         }
     },
     "CHROMA-Q": {
-        "CHROMA-Q COLOR BLOCK 2": {
+        "CHROMA-Q Color Block 2": {
             "1": "12 CH",
             "2": "12 CH",
             "3": "12 CH",
@@ -385,19 +385,19 @@ brands = {
             "Weight": "38 kg"
         },
 
-        "MARTIN MAC 700 PROFILE": {
+        "MARTIN MAC 700 Profile": {
             "16-Bit": "23 CH",
             "16-bit Extended": "31 CH",
             "Power": "950W",
             "Weight": "34.5 kg"
         },
-        "MARTIN MAC 2000 PROFILE": {
+        "MARTIN MAC 2000 Profile": {
             "8": "20 CH",
             "16": "24 CH",
             "Power": "1500W",
             "Weight": "40 kg"
         },
-        "MARTIN MAC VIPER PROFILE": {
+        "MARTIN MAC VIPER Profile": {
             "16-Bit": "26 CH",
             "16-bit Extended": "34 CH",
             "Power": "1225W",
@@ -415,7 +415,7 @@ brands = {
             "Power": "1805W",
             "Weight": "53.5 kg"
         },
-        "MARTIN MAC III PROFILE": {
+        "MARTIN MAC III Profile": {
             "8": "27 CH",
             "16": "30 CH",
             "Power": "1805W",
@@ -438,7 +438,7 @@ brands = {
                 "Weight": "28 kg"
             },
         },
-        "VARILITE PROFILE": {
+        "VARILITE Profile": {
             "VL 1000 AS": {
                 "16-Bit": "27 CH",
                 "Power": "575W",
@@ -462,7 +462,7 @@ brands = {
             "Power": "2000W",
             "Weight": "35 kg"
         },
-        "ROBE T2 PROFILE": {
+        "ROBE T2 Profile": {
             "Mode 1": "52 CH",
             "Mode 2": "36 CH",
             "Mode 3": "56 CH",

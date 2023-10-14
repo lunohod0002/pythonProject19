@@ -1,25 +1,20 @@
-from app.services.types import equipment_catalog
 import telebot
-from app.services.names import equipment
 from app.services import storage
-from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup,InlineKeyboardButton
-from app.services import get_all_brands,get_all_types,get_brand_current_names,\
-    get_current_brands,get_current_names,get_manual_link
+from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
+from app.services import get_all_brands, get_all_types, get_brand_current_names, \
+    get_current_brands, get_current_names, get_manual_link
 import json
-keys = []
-for key in equipment_catalog.keys():
-    keys.append(key)
-keys2 = []
-for key in equipment.keys():
-    keys2.append(key)
-kol = 0
-def get_manual_keyboard(name)-> InlineKeyboardMarkup | None:
+
+
+
+def get_manual_keyboard(name) -> InlineKeyboardMarkup | None:
     keyboard = InlineKeyboardMarkup()
-    if get_manual_link(name) !=None:
+    if get_manual_link(name) != None:
         button = InlineKeyboardButton("Мануал", url=get_manual_link(name))
         keyboard.add(button)
         return keyboard
     return None
+
 
 def get_mail_keyboard() -> InlineKeyboardMarkup:
     main_keyboard = telebot.types.InlineKeyboardMarkup(row_width=2)
@@ -37,7 +32,7 @@ def get_mail_keyboard() -> InlineKeyboardMarkup:
 
 def get_brands_keyboard() -> ReplyKeyboardMarkup:
     main_keyboard = telebot.types.ReplyKeyboardMarkup()
-    brands=get_all_brands()
+    brands = get_all_brands()
     for key in brands:
         button = telebot.types.InlineKeyboardButton(text=key)
         main_keyboard.row(button)
@@ -47,13 +42,12 @@ def get_brands_keyboard() -> ReplyKeyboardMarkup:
 
 def get_second_brand_keybord(message) -> ReplyKeyboardMarkup:
     main_keyboard = telebot.types.ReplyKeyboardMarkup()
-    names=get_brand_current_names(message)
+    names = get_brand_current_names(message)
     for key in names:
         button = telebot.types.InlineKeyboardButton(text=key)
         main_keyboard.row(button)
     main_keyboard.row("\U0001F519Назад")
     return main_keyboard
-
 
 
 def gen_main_keyboard() -> ReplyKeyboardMarkup:
@@ -79,12 +73,11 @@ def gen_search_keyboard(lis) -> InlineKeyboardMarkup:
 
 def gen_second_keyboard(type) -> ReplyKeyboardMarkup:
     second_keyboard = telebot.types.ReplyKeyboardMarkup()
-    brands=get_current_brands(type)
+    brands = get_current_brands(type)
     with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     for brand in brands:
-
         button = telebot.types.InlineKeyboardButton(text=brand, callback_data=brand)
         second_keyboard.row(button)
 
@@ -95,9 +88,9 @@ def gen_second_keyboard(type) -> ReplyKeyboardMarkup:
 
 def gen_third_keyboard(tg_id) -> ReplyKeyboardMarkup:
     costorage = storage.get_data(chat_id=tg_id, user_id=tg_id)
-    type=costorage['type']
-    brand=costorage['brand']
-    names=get_current_names(type,brand)
+    type = costorage['type']
+    brand = costorage['brand']
+    names = get_current_names(type, brand)
     third_keyboard = telebot.types.ReplyKeyboardMarkup()
 
     for name in names:
@@ -112,9 +105,9 @@ def gen_third_keyboard(tg_id) -> ReplyKeyboardMarkup:
 
 def get_info(tg_id):
     costorage = storage.get_data(chat_id=tg_id, user_id=tg_id)
-    type=costorage['type']
-    brand=costorage['brand']
-    name=costorage['name']
+    type = costorage['type']
+    brand = costorage['brand']
+    name = costorage['name']
     with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:
@@ -131,7 +124,7 @@ def get_info(tg_id):
 def get_info_brand(tg_id):
     costorage = storage.get_data(chat_id=tg_id, user_id=tg_id)
     brand = costorage['brand_type']
-    name=costorage['brand_name']
+    name = costorage['brand_name']
     with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:
@@ -151,8 +144,9 @@ def search_info(name):
     for item in data["equipment"]:
         if item["name"] == name:
             s = str(item['settings'])
-            s = s.replace(', ', '\n').replace('"', '').replace(" {", "\n").replace("{'", '').replace('}', "\n").replace("'",
-                                                                                                                "").replace(
+            s = s.replace(', ', '\n').replace('"', '').replace(" {", "\n").replace("{'", '').replace('}', "\n").replace(
+                "'",
+                "").replace(
                 "Power", "\nPower")
     s = f"{name}\n{s}"
     return s

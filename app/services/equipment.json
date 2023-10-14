@@ -1,6 +1,6 @@
 {
   "equipment": [
-     {
+    {
       "type": "Светодиодное оборудование",
       "brand": "GLP",
       "name": "GLP impression X4 BAR 20",
@@ -15,7 +15,22 @@
         "Power": "550W",
         "Weight": "16 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Impression_X4Bar-program-guide.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Impression_X4Bar-program-guide.pdf",
+      "keywords": [
+        "GLP impression X4 Bar 20",
+        "GLP",
+        "impression",
+        "X4",
+        "Bar",
+        "20",
+        "ГЛП",
+        "Бар",
+        "Бар 20",
+        "Бар-20",
+        "Бар20",
+        "Импрешен",
+        "Импрешшен"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
@@ -32,7 +47,22 @@
         "Power": "280W",
         "Weight": "8 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Impression_X4Bar10_DMX_v1.7_EN_DRAFT.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Impression_X4Bar10_DMX_v1.7_EN_DRAFT.pdf",
+      "keywords": [
+        "GLP impression X4 Bar 10",
+        "GLP",
+        "impression",
+        "X4",
+        "Bar",
+        "10",
+        "ГЛП",
+        "Бар",
+        "Бар 10",
+        "Бар-10",
+        "Бар10",
+        "Импрешен",
+        "Импрешшен"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
@@ -43,12 +73,23 @@
         "Power": "25W",
         "Weight": "1.8 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/X4-atom-White-LED-DMX-Channel-Index.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/X4-atom-White-LED-DMX-Channel-Index.pdf",
+      "keywords": [
+        "GLP X4 ATOM",
+        "GLP",
+        "X4",
+        "atom",
+        "RGBW",
+        "Атом",
+        "Икс",
+        "4",
+        "глп"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "SGM",
-      "name": "SGM P5",
+      "name": "SGM P-5 Wash 43",
       "settings": {
         "3": "3 CH",
         "4": "4 CH",
@@ -60,7 +101,22 @@
         "Power": "450W",
         "Weight": "8.9 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "SGM P-5 Wash 43 Std BL",
+        "SGM",
+        "P-5",
+        "Wash",
+        "43⁰",
+        "Std",
+        "BL",
+        "П5",
+        "П 5",
+        "П-5",
+        "СГМ",
+        "Вош",
+        "Ваш"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
@@ -71,7 +127,24 @@
         "Power": "38W",
         "Weight": "3.6 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "COEMAR PARLITE",
+        "COEMAR",
+        "PARLITE",
+        "Парлите",
+        "Par",
+        "lite",
+        "56",
+        "LED",
+        "Пар",
+        "Лайт",
+        "Лаит",
+        "лэд",
+        "лед",
+        "KOEMAR",
+        "Коемар"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
@@ -82,7 +155,24 @@
         "Power": "38W",
         "Weight": "3.6 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "COEMAR PINLITE",
+        "COEMAR",
+        "PINLITE",
+        "Пинлите",
+        "Pin",
+        "lite",
+        "36",
+        "LED",
+        "Пар",
+        "Лайт",
+        "Лаит",
+        "лэд",
+        "лед",
+        "KOEMAR",
+        "Коемар"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
@@ -93,12 +183,24 @@
         "Power": "150W",
         "Weight": "14 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "GRIVEN Stroker LED",
+        "GRIVEN",
+        "Stroker",
+        "LED",
+        "Грайвен",
+        "Гривен",
+        "Лэд",
+        "Лед",
+        "Строкер",
+        "Strocer"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "CHROMA-Q",
-      "name": "CHROMA-Q COLOR BLOCK 2",
+      "name": "CHROMA-Q Color Block 2",
       "settings": {
         "1": "12 CH",
         "2": "12 CH",
@@ -119,12 +221,27 @@
         "Power": "12W",
         "Weight": "1.3 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Block-2-Manual.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Block-2-Manual.pdf",
+      "keywords": [
+        "CHROMA-Q Color Block 2",
+        "CHROMA-Q",
+        "Color",
+        "Block2",
+        "Хрома",
+        "Кью",
+        "Кю",
+        "Форс",
+        "Колор",
+        "Колар",
+        "Хромо",
+        "Блок",
+        "Блок2"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "CHROMA-Q",
-      "name": "CHROMA-Q COLOR FORCE 48",
+      "name": "CHROMA-Q Color Force 48",
       "settings": {
         "1": "31 CH",
         "2": "24 CH",
@@ -139,12 +256,28 @@
         "Power": "480W",
         "Weight": "15 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Force-48-User-Manual.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Force-48-User-Manual.pdf",
+      "keywords": [
+        "CHROMA-Q Color Force 48",
+        "CHROMA-Q",
+        "Color",
+        "Force",
+        "48",
+        "CHROMAQ",
+        "CHROMA Q",
+        "Хрома",
+        "Кью",
+        "Кю",
+        "Форс",
+        "Колор",
+        "Колар",
+        "Хромо"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "CHROMA-Q",
-      "name": "CHROMA-Q COLOR FORCE II 48",
+      "name": "CHROMA-Q Color Force II 48",
       "settings": {
         "GROUPING 1": {
           "RGB": "48 CH",
@@ -191,107 +324,145 @@
         "Power": "533W",
         "Weight": "18 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Force-II-48-User-Manual.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Color-Force-II-48-User-Manual.pdf",
+      "keywords": [
+        "CHROMA-Q Color Force II 48",
+        "CHROMA-Q",
+        "Color",
+        "Force",
+        "48",
+        "II",
+        "New",
+        "Хрома",
+        "Кью",
+        "Кю",
+        "Форс",
+        "Колор",
+        "Колар",
+        "Хромо"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "ASTERA",
       "name": "ASTERA AX5 LED PAR",
       "settings": {
-                "1-RGB": "3 CH",
-                "2-RGBS": "4 CH",
-                "3-RGBAW": "5 CH",
-                "4-DIM RGB": "4 CH",
-                "5-DIM RGBW": "5 CH",
-                "6-DIM RGBAW": "6 CH",
-                "7-RGB CCT DIM IND": "6 CH",
-                "8-RGBS": "4 CH",
-                "9-RGBWS": "5 CH",
-                "10-RGBAWS": "6 CH",
-                "11-DIM RGBS": "4 CH",
-                "12-DIM RGBWS": "6 CH",
-                "13-DIM RGBAWS": "7 CH",
-                "14-RGB CCT DIM": "7 CH",
-                "15-EFFECT MODE FIX": "13 CH",
-                "16-EFFECT MODE RGB": "21 CH",
-
-                "Power": "45W",
-                "Weight": "3.4 kg"
-            },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/AX5-manual-EN-.pdf"
+        "1-RGB": "3 CH",
+        "2-RGBS": "4 CH",
+        "3-RGBAW": "5 CH",
+        "4-DIM RGB": "4 CH",
+        "5-DIM RGBW": "5 CH",
+        "6-DIM RGBAW": "6 CH",
+        "7-RGB CCT DIM IND": "6 CH",
+        "8-RGBS": "4 CH",
+        "9-RGBWS": "5 CH",
+        "10-RGBAWS": "6 CH",
+        "11-DIM RGBS": "4 CH",
+        "12-DIM RGBWS": "6 CH",
+        "13-DIM RGBAWS": "7 CH",
+        "14-RGB CCT DIM": "7 CH",
+        "15-EFFECT MODE FIX": "13 CH",
+        "16-EFFECT MODE RGB": "21 CH",
+        "Power": "45W",
+        "Weight": "3.4 kg"
+      },
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/AX5-manual-EN-.pdf",
+      "keywords": [
+        "ASTERA AX5 LED PAR",
+        "ASTERA",
+        "AX5",
+        "LED",
+        "PAR",
+        "Астера",
+        "Астер",
+        "Лед",
+        "Лэд",
+        "Пар"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "ASTERA",
-      "name": "ASTERA TITAN TUBE",
+      "name": "ASTERA Titan Tube",
       "settings": {
-                "1-RGB": "3 CH",
-                "2-RGBS": "4 CH",
-                "3-RGBAW": "5 CH",
-                "4-DIM RGB": "4 CH",
-                "5-DIM RGBW": "5 CH",
-                "6-DIM RGBAW": "6 CH",
-                "7-RGB CCT DIM IND": "6 CH",
-                "8-RGBWS": "5 CH",
-                "9-RGBAWS": "6 CH",
-                "10-DIM RGBS": "5 CH",
-                "11-DIM RGBWS": "6 CH",
-                "12-DIM RGBAWS": "7 CH",
-                "13-RGB CCT DIM IND S": "7 CH",
-                "14-EFFECT MODE FIX": "13 CH",
-                "15-EFFECT MODE RGB": "21 CH",
-                "16-RGB.RGB.": "15 CH",
-                "17-RGB RGB": "12 CH",
-                "18-RGBW RGBW:": "16 CH",
-                "19-RGBAW RGBAW": "20 CH",
-                "20-DIM RGB DIM RGB": "16 CH",
-                "21-DIM RGBW DIM RGBW": "20 CH",
-                "22-DIM RGBAW DIM RGBAW": "24 CH",
-                "23-RGB CCT DIM IND": "24 CH",
-                "24-RGB.RGBS": "15 CH",
-                "25-RGB RGB .. S": "13 CH",
-                "26-RGBW RGBW .. S": "17 CH",
-                "27-RGBAW RGBAW .. S": "21 CH",
-                "28-DIM RGB DIM RGB .. S": "17 CH",
-                "29-DIM RGBW DIM RGBW .. S": "21 CH",
-                "30-DIM RGBAW DIM RGBAW .. S": "25 CH",
-                "31-RGB CCT DIM IND S": "25 CH",
-                "32-RGBS RGBS": "16 CH",
-                "33-RGB RGB .. SS": "16 CH",
-                "34-RGBWS RGBWS": "20 CH",
-                "35-RGBAWS RGBAWS": "24 CH",
-                "36-DIM RGBS DIM RGBS": "20 CH",
-                "37-DIM RGBWS DIM RGBWS": "24 CH",
-                "38-DIM RGBAWS DIM RGBAWS": "28 CH",
-                "39-RGB CCT DIM IND S": "28 CH",
-                "40-RGB.RGB.": "63 CH",
-                "41-RGB RGB": "48 CH",
-                "42-RGBW RGBW": "64 CH",
-                "43-RGBAW RGBAW": "80 CH",
-                "44-DIM RGB DIM RGB": "64 CH",
-                "45-DIM RGBW DIM RGBW": "80 CH",
-                "46-DIM RGBAW DIM RGBAW": "96 CH",
-                "47-RGB CCT DIM IND": "96 CH",
-                "48-RGB.RGBS": "63 CH",
-                "49-RGB RGB .. S": "49 CH",
-                "50-RGBW RGBW .. S": "65 CH",
-                "51-RGBAW RGBAW": "81 CH",
-                "52-DIM RGB DIM RGB .. S": "65 CH",
-                "53-DIM RGBW DIM RGBW .. S": "81 CH",
-                "54-DIM RGBAW DIM RGBAW .. S": "97 CH",
-                "56-RGB CCT DIM IND S": "97 CH",
-                "57-RGBS RGBS": "64 CH",
-                "58-RGB RGB .. SS": "64 CH",
-                "59-RGBWS RGBWS": "80 CH",
-                "60-RGBAWS RGBAWS": "96 CH",
-                "61-DIM RGBS DIM RGBS": "80 CH",
-                "62-DIM RGBWS DIM RGBWS": "96 CH",
-                "63-DIM RGBAWS DIM RGBAWS": "112 CH",
-                "64-RGB CCT DIM IND S": "112 CH",
-                "Power": "72W",
-                "Weight": "1.3 kg"
-            },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Titan-Manual.pdf"
+        "1-RGB": "3 CH",
+        "2-RGBS": "4 CH",
+        "3-RGBAW": "5 CH",
+        "4-DIM RGB": "4 CH",
+        "5-DIM RGBW": "5 CH",
+        "6-DIM RGBAW": "6 CH",
+        "7-RGB CCT DIM IND": "6 CH",
+        "8-RGBWS": "5 CH",
+        "9-RGBAWS": "6 CH",
+        "10-DIM RGBS": "5 CH",
+        "11-DIM RGBWS": "6 CH",
+        "12-DIM RGBAWS": "7 CH",
+        "13-RGB CCT DIM IND S": "7 CH",
+        "14-EFFECT MODE FIX": "13 CH",
+        "15-EFFECT MODE RGB": "21 CH",
+        "16-RGB.RGB.": "15 CH",
+        "17-RGB RGB": "12 CH",
+        "18-RGBW RGBW:": "16 CH",
+        "19-RGBAW RGBAW": "20 CH",
+        "20-DIM RGB DIM RGB": "16 CH",
+        "21-DIM RGBW DIM RGBW": "20 CH",
+        "22-DIM RGBAW DIM RGBAW": "24 CH",
+        "23-RGB CCT DIM IND": "24 CH",
+        "24-RGB.RGBS": "15 CH",
+        "25-RGB RGB .. S": "13 CH",
+        "26-RGBW RGBW .. S": "17 CH",
+        "27-RGBAW RGBAW .. S": "21 CH",
+        "28-DIM RGB DIM RGB .. S": "17 CH",
+        "29-DIM RGBW DIM RGBW .. S": "21 CH",
+        "30-DIM RGBAW DIM RGBAW .. S": "25 CH",
+        "31-RGB CCT DIM IND S": "25 CH",
+        "32-RGBS RGBS": "16 CH",
+        "33-RGB RGB .. SS": "16 CH",
+        "34-RGBWS RGBWS": "20 CH",
+        "35-RGBAWS RGBAWS": "24 CH",
+        "36-DIM RGBS DIM RGBS": "20 CH",
+        "37-DIM RGBWS DIM RGBWS": "24 CH",
+        "38-DIM RGBAWS DIM RGBAWS": "28 CH",
+        "39-RGB CCT DIM IND S": "28 CH",
+        "40-RGB.RGB.": "63 CH",
+        "41-RGB RGB": "48 CH",
+        "42-RGBW RGBW": "64 CH",
+        "43-RGBAW RGBAW": "80 CH",
+        "44-DIM RGB DIM RGB": "64 CH",
+        "45-DIM RGBW DIM RGBW": "80 CH",
+        "46-DIM RGBAW DIM RGBAW": "96 CH",
+        "47-RGB CCT DIM IND": "96 CH",
+        "48-RGB.RGBS": "63 CH",
+        "49-RGB RGB .. S": "49 CH",
+        "50-RGBW RGBW .. S": "65 CH",
+        "51-RGBAW RGBAW": "81 CH",
+        "52-DIM RGB DIM RGB .. S": "65 CH",
+        "53-DIM RGBW DIM RGBW .. S": "81 CH",
+        "54-DIM RGBAW DIM RGBAW .. S": "97 CH",
+        "56-RGB CCT DIM IND S": "97 CH",
+        "57-RGBS RGBS": "64 CH",
+        "58-RGB RGB .. SS": "64 CH",
+        "59-RGBWS RGBWS": "80 CH",
+        "60-RGBAWS RGBAWS": "96 CH",
+        "61-DIM RGBS DIM RGBS": "80 CH",
+        "62-DIM RGBWS DIM RGBWS": "96 CH",
+        "63-DIM RGBAWS DIM RGBAWS": "112 CH",
+        "64-RGB CCT DIM IND S": "112 CH",
+        "Power": "72W",
+        "Weight": "1.3 kg"
+      },
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Titan-Manual.pdf",
+      "keywords": [
+        "ASTERA Titan Tube",
+        "ASTERA",
+        "Titan",
+        "Tube",
+        "Титан",
+        "Тайтан",
+        "Тьюб",
+        "Труба",
+        "Трубка"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
@@ -300,29 +471,61 @@
       "settings": {
         "Default": "OO CH"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "LED TUBE",
+        "LED",
+        "лед",
+        "лэд",
+        "Tube",
+        "Титан",
+        "Тайтан",
+        "Тьюб",
+        "Труба",
+        "Трубка"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
       "brand": "EK-LIGHTNING",
       "name": "EK-LIGHTNING COLLIDER BAR RGBW IP65",
       "settings": {
-                "1CH": "1 CH",
-                "3CH": "3 CH",
-                "4CH": "4 CH",
-                "5CH": "5 CH",
-                "6CH": "6 CH",
-                "8CH": "8 CH",
-                "11CH": "11 CH",
-                "15CH": "15 CH",
-                "62CH": "62 CH",
-                "67CH": "67 CH",
-                "120CH": "120 CH",
-                "ADVANCED-ADVANCED 1": "71 CH",
-                "Power": "960W",
-                "Weight": "7 kg"
-            },
-      "manual": "*"
+        "1CH": "1 CH",
+        "3CH": "3 CH",
+        "4CH": "4 CH",
+        "5CH": "5 CH",
+        "6CH": "6 CH",
+        "8CH": "8 CH",
+        "11CH": "11 CH",
+        "15CH": "15 CH",
+        "62CH": "62 CH",
+        "67CH": "67 CH",
+        "120CH": "120 CH",
+        "ADVANCED-ADVANCED 1": "71 CH",
+        "Power": "960W",
+        "Weight": "7 kg"
+      },
+      "manual": "*",
+      "keywords": [
+        "EK-LIGHTNING COLLIDER BAR RGBW IP65",
+        "EK-Lighting",
+        "COLLIDER",
+        "Коллидер",
+        "Колидер",
+        "RGBW",
+        "IP65",
+        "бар",
+        "65",
+        "Лайтнинг",
+        "Лаитнинг",
+        "ЕКЛайтнинг",
+        "ЕКЛаитнинг",
+        "ЕК Лайтнинг",
+        "ЕК Лаитнинг",
+        "ЕК-Лайтнинг",
+        "ЕК-Лаитнинг",
+        "айпи"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -333,34 +536,80 @@
         "2": "25CH",
         "Power": "650W",
         "Weight": "36 kg"
-    },
-      "manual": "*"
+      },
+      "manual": "*",
+      "keywords": [
+        "EK-Lighting SHARK BSW IP65",
+        "EK-Lighting",
+        "SHARK",
+        "BSW",
+        "IP65",
+        "шарк",
+        "ИК",
+        "Лайтнинг",
+        "Лаитнинг",
+        "ЕКЛайтнинг",
+        "ЕКЛаитнинг",
+        "ЕК Лайтнинг",
+        "ЕК Лаитнинг",
+        "ЕК-Лайтнинг",
+        "ЕК-Лаитнинг",
+        "щарк"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "MARTIN",
       "name": "MARTIN MAC 600 WASH",
       "settings": {
-                "1": "10 CH",
-                "2": "12 CH",
-                "3": "12 CH",
-                "4": "14 CH",
-                "Power": "750W",
-                "Weight": "28 kg"
-            },
-      "manual": "*"
+        "1": "10 CH",
+        "2": "12 CH",
+        "3": "12 CH",
+        "4": "14 CH",
+        "Power": "750W",
+        "Weight": "28 kg"
+      },
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC 600 Wash",
+        "MARTIN",
+        "МАС-600",
+        "Wash",
+        "Мак",
+        "Вош",
+        "Ваш",
+        "6O00",
+        "Мартин",
+        "Мартен",
+        "Вош",
+        "Ваш"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "MARTIN",
-      "name": "MARTIN MAC 700 WASH",
+      "name": "MARTIN MAC 700 Wash",
       "settings": {
         "16-Bit": "16 CH",
         "16-bit Extended": "23 CH",
         "Power": "950W",
         "Weight": "32 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC 700 Wash",
+        "MARTIN",
+        "МАС-700",
+        "Wash",
+        "Мак",
+        "Вош",
+        "Ваш",
+        "700",
+        "Мартин",
+        "Мартен",
+        "Вош",
+        "Ваш"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -372,7 +621,20 @@
         "Power": "1450W",
         "Weight": "36 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC 2000 Wash XB",
+        "MARTIN",
+        "МАС-2000",
+        "Wash",
+        "ХВ",
+        "ХВ",
+        "Вош",
+        "Ваш",
+        "2000",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -384,43 +646,97 @@
         "Power": "1800W",
         "Weight": "38 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC 2000 Wash XB",
+        "MARTIN",
+        "МАС-2000",
+        "Wash",
+        "ХВ",
+        "ХВ",
+        "Вош",
+        "Ваш",
+        "2000",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "MARTIN",
-      "name": "MARTIN MAC 700 PROFILE",
+      "name": "MARTIN MAC 700 Profile",
       "settings": {
         "16-Bit": "23 CH",
         "16-bit Extended": "31 CH",
         "Power": "950W",
         "Weight": "34.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC 700 Profile",
+        "MARTIN",
+        "МАС-700",
+        "Profile",
+        "Мак",
+        "Профайл",
+        "Профаил",
+        "700",
+        "Мартин",
+        "Мартен",
+        "Профайл",
+        "Профаил"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "MARTIN",
-      "name": "MARTIN MAC 2000 PROFILE",
+      "name": "MARTIN MAC 2000 Profile",
       "settings": {
         "8": "20 CH",
         "16": "24 CH",
         "Power": "1500W",
         "Weight": "40 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC 2000 Profile",
+        "MARTIN",
+        "МАС-2000",
+        "Profile",
+        "Мак",
+        "Профайл",
+        "Профаил",
+        "2000",
+        "Мартин",
+        "Мартен",
+        "Профайл",
+        "Профаил"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "MARTIN",
-      "name": "MARTIN MAC VIPER PROFILE",
+      "name": "MARTIN MAC VIPER Profile",
       "settings": {
         "16-Bit": "26 CH",
         "16-bit Extended": "34 CH",
         "Power": "1225W",
         "Weight": "37.2 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC Viper Profile",
+        "MARTIN",
+        "MAC",
+        "Viper",
+        "Profile",
+        "Мак",
+        "Вайпер",
+        "Профайл",
+        "Профаил",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -432,7 +748,21 @@
         "Power": "1225W",
         "Weight": "37.9 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC Viper Performance",
+        "MARTIN",
+        "MAC",
+        "Viper",
+        "Performance",
+        "Мак",
+        "Вайпер",
+        "Перф",
+        "Перфоманс",
+        "Перфомонс",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -444,30 +774,33 @@
         "Power": "1805W",
         "Weight": "53.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": ["МАС-III","Performance","Мак","Мак3","Мак" ,"Мак-3","Перф","Перфоманс","Перфомонс","Мартин","Мартен"]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "MARTIN",
-      "name": "MARTIN MAC III PROFILE",
+      "name": "MARTIN MAC III Profile",
       "settings": {
         "8": "27 CH",
         "16": "30 CH",
         "Power": "1805W",
         "Weight": "53.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": ["МАС-III","Profile","Мак","Мак3","Мак" ,"Мак-3","Профайл","Пройфаил","Проф","Мартин","Мартен"]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
-      "brand": "VARILITE PROFILE",
-      "name": "Vari Lite 1000 AS",
+      "brand": "VARILITE Profile",
+      "name": "Vari-Lite 1000AS",
       "settings": {
-                "16-Bit": "27 CH",
-                "Power": "575W",
-                "Weight": "27 kg"
-            },
-      "manual": "*"
+        "16-Bit": "27 CH",
+        "Power": "575W",
+        "Weight": "27 kg"
+      },
+      "manual": "*",
+      "keywords": ["1000AS","варилите","Врилайт","Вари","Лайт","Вари-лайт","Врилаит","Вари Лаит","Вари-лаит","1000",",1000 AC","1000," ,"ВЛ","АС","1000AC","1000АС","1000 AS","1000 A S","Вари","VARILITE"]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -479,31 +812,59 @@
         "Power": "350W",
         "Weight": "19 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Sharpy_DMX-channels_12.2014_EN.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Sharpy_DMX-channels_12.2014_EN.pdf",
+      "keywords": [
+        "CLAYPAKY Sharpy",
+        "CLAYPAKY",
+        "Sharpy",
+        "Шарпей",
+        "Шарпи",
+        "Клейпаки",
+        "Клайпаки",
+        "Клэйпаки",
+        "Шарпеи",
+        "Clay",
+        "Paky"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "VARILITE BEAM",
-      "name": "Vari Lite 6000 BEAM",
+      "name": "Vari-Lite 6000 BEAM",
       "settings": {
         "16-Bit": "23 CH",
         "Power": "2140W",
         "Weight": "28 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": ["VL","VARILITE","6000","Beam","Врилайт","Вари Лайт","Вари-лайт","Врилаит","Вари Лаит","Вари-лаит","Бим","Beem","вл","Варилите"]
+
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "CLAYPAKY",
       "name": "CLAYPAKY MYTHOS II",
       "settings": {
-            "Standard": "30 CH",
-            "Vector": "34 CH",
-
-            "Power": "700W",
-            "Weight": "32 kg"
-        },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Mythos_DMX-Channels_05.2018.pdf"
+        "Standard": "30 CH",
+        "Vector": "34 CH",
+        "Power": "700W",
+        "Weight": "32 kg"
+      },
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Mythos_DMX-Channels_05.2018.pdf",
+      "keywords": [
+        "CLAYPAKY Mythos II",
+        "CLAYPAKY",
+        "Mythos",
+        "II",
+        "Клейпаки",
+        "Клайпаки",
+        "Клэйпаки",
+        "Митос",
+        "Mytos",
+        "2",
+        "Clay",
+        "Paky"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -514,34 +875,63 @@
         "Power": "2800W",
         "Weight": "63.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": []
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
       "brand": "ROBE",
       "name": "ROBE T2 Profile",
       "settings": {
-                "Mode 1": "52 CH",
-                "Mode 2": "36 CH",
-                "Mode 3": "56 CH",
-
-                "Power": "850W",
-                "Weight": "36.9 kg"
-            },
-      "manual": "*"
+        "Mode 1": "52 CH",
+        "Mode 2": "36 CH",
+        "Mode 3": "56 CH",
+        "Power": "850W",
+        "Weight": "36.9 kg"
+      },
+      "manual": "*",
+      "keywords": [
+        "ROBE T2 Profile",
+        "ROBE",
+        "T2",
+        "Profile",
+        "Робе",
+        "Профайл",
+        "Профаил",
+        "Т2",
+        "Т-2",
+        "Т 2",
+        "T-2",
+        "T 2",
+        "Робэ"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
       "brand": "ROBE",
       "name": "ROBE LED BEAM 150",
       "settings": {
-                "Mode 1": "22 CH",
-                "Mode 2": "16 CH",
-
-                "Power": "220W",
-                "Weight": "5.7 kg"
-            },
-      "manual": "*"
+        "Mode 1": "22 CH",
+        "Mode 2": "16 CH",
+        "Power": "220W",
+        "Weight": "5.7 kg"
+      },
+      "manual": "*",
+      "keywords": [
+        "Robe LED beam 150",
+        "Robe",
+        "LED",
+        "beam",
+        "150",
+        "Лэд",
+        "Лед",
+        "Бим",
+        "150",
+        "Робе",
+        "Робэ",
+        "Ледбим",
+        "Лэдбим"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -554,7 +944,20 @@
         "Power": "900W",
         "Weight": "25 kg"
       },
-      "manual": "https://motion-rental.de/downloads/artikelpdfs/20500-Ayrton_DreampanelTwin_Manual_ENG.pdf"
+      "manual": "https://motion-rental.de/downloads/artikelpdfs/20500-Ayrton_DreampanelTwin_Manual_ENG.pdf",
+      "keywords": [
+        "AYRTON Dreampanel Twin",
+        "AYRTON",
+        "Dreampanel",
+        "Twin",
+        "Дримпанель",
+        "Аэртон",
+        "Аертон",
+        "Dream panel",
+        "Твин",
+        "Dream",
+        "Panel"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -566,7 +969,24 @@
         "Power": "1020W",
         "Weight": "21 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC QUANTUM WASH",
+        "MARTIN",
+        "МАС",
+        "QUANTUM",
+
+        "Wash",
+        "Мак",
+        "Вош",
+        "Ваш",
+        "Квантум",
+        "Куаантум",
+        "Мартин",
+        "Мартен",
+        "Вош",
+        "Ваш"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -578,7 +998,18 @@
         "Power": "400W",
         "Weight": "6.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC Aura XB",
+        "МАС",
+        "Аura",
+        "XB",
+        "Мак",
+        "Аура",
+        "ХВ",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -590,7 +1021,18 @@
         "Power": "260W",
         "Weight": "5.6 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN MAC Aura XB",
+        "МАС",
+        "Аura",
+        "XB",
+        "Мак",
+        "Аура",
+        "ХВ",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -604,7 +1046,15 @@
         "Power": "350W",
         "Weight": "8.9 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MAC 301",
+        "МАС",
+        "301",
+        "Мак",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -617,35 +1067,15 @@
         "Power": "123W",
         "Weight": "3.7 kg"
       },
-      "manual": "*"
-    },
-    {
-      "type": "Светодиодные прожекторы с полным вращением",
-      "brand": "MARTIN",
-      "name": "MARTIN MAC 301 WASH",
-      "settings": {
-        "Standard 8 RGB": "16 CH",
-        "Standard 16 RGB": "19 CH",
-        "Compressed 8 RGB": "12 CH",
-        "Compressed 16 RGB": "15 CH",
-        "Power": "350W",
-        "Weight": "8.9 kg"
-      },
-      "manual": "*"
-    },
-    {
-      "type": "Светодиодные прожекторы с полным вращением",
-      "brand": "MARTIN",
-      "name": "MARTIN MAC 101",
-      "settings": {
-        "Standard 8 RGB": "16 CH",
-        "Standard 16 RGB": "19 CH",
-        "Compressed 8 RGB": "12 CH",
-        "Compressed 16 RGB": "15 CH",
-        "Power": "350W",
-        "Weight": "8.9 kg"
-      },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MAC 101",
+        "МАС",
+        "101",
+        "Мак",
+        "Мартин",
+        "Мартен"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -659,7 +1089,8 @@
         "Power": "350W",
         "Weight": "8.9 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": []
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -671,7 +1102,19 @@
         "Power": "221W",
         "Weight": "17.6 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/AxcorBeam300_DMX-Channels_10.2018.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/AxcorBeam300_DMX-Channels_10.2018.pdf",
+      "keywords": [
+        "Claypaky Axcor Beam 300",
+        "Claypaky",
+        "Axcor",
+        "Beam",
+        "300",
+        "Клейпаки",
+        "Клайпаки",
+        "Клэйпаки",
+        "Акскор",
+        "Аксор"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -683,12 +1126,13 @@
         "Power": "1250W",
         "Weight": "27.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": ["Paky","B-eye","K25","eye","ай","Клейпаки","Клайпаки","Клэйпаки","К","25","К25"]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
       "brand": "ELATION",
-      "name": "ELATION FUSE PROFILE",
+      "name": "ELATION FUSE Profile",
       "settings": {
         "Standard": "38 CH",
         "Extended": "59 CH",
@@ -697,19 +1141,49 @@
         "Power": "540W",
         "Weight": "25 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "ELATION Fuse Profile",
+        "ELATION",
+        "Fuse",
+        "Profile",
+        "Фьюз",
+        "Профайл",
+        "Профаил"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
       "brand": "EK-LIGHTNING",
-      "name": "EK-LIGHTNING R3 BEAM WASH",
+      "name": "EK-Lighting R3 Beam Wash",
       "settings": {
         "16CH": "16 CH",
         "20CH": "20 CH",
         "Power": "310W",
         "Weight": "6.6 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "EK-Lighting R3 Beam Wash",
+        "EK-Lighting",
+        "R3",
+        "Beam",
+        "Wash",
+        "ИК",
+        "Лайтнинг",
+        "Лаитнинг",
+        "ЕКЛайтнинг",
+        "ЕКЛаитнинг",
+        "ЕК Лайтнинг",
+        "ЕК Лаитнинг",
+        "ЕК-Лайтнинг",
+        "ЕК-Лаитнинг",
+        "Р3",
+        "Р 3",
+        "Р-3",
+        "R 3",
+        "R-3"
+      ]
     },
     {
       "type": "Небесные прожекторы",
@@ -718,7 +1192,24 @@
       "settings": {
         "Default": "00 CH"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "NOVALIGHT Booster",
+        "NOVALIGHT",
+        "Booster",
+        "2500W",
+        "Бустер",
+        "Новалайт",
+        "Нова лайт",
+        "Нова-лайт",
+        "Бустер",
+        "2500",
+        "2500W",
+        "Новалаит",
+        "Нова лаит",
+        "Нова-лаит",
+        "Нова"
+      ]
     },
     {
       "type": "Небесные прожекторы",
@@ -730,16 +1221,43 @@
         "Power": "700W",
         "Weight": "30 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Supersharpy2_DMX-Channels_10.2018.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Supersharpy2_DMX-Channels_10.2018.pdf",
+      "keywords": [
+        "CLAYPAKY SUPER Sharpy",
+        "CLAYPAKY",
+        "SUPER",
+        "Sharpy",
+        "Супер",
+        "Шарпей",
+        "Шарпи",
+        "Клейпаки",
+        "Клайпаки",
+        "Клэйпаки",
+        "Шарпеи",
+        "Clay",
+        "Paky"
+      ]
     },
     {
       "type": "Небесные прожекторы",
       "brand": "FINE ART",
-      "name": "FINEART V - 2033",
+      "name": "FINEART V-2033",
       "settings": {
         "Default": "00 CH"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "FINEART V - 2033",
+        "FineArt",
+        "V-2033",
+        "Fine",
+        "Art",
+        "V2033",
+        "Файнарт",
+        "Файн-арт",
+        "2033",
+        "V"
+      ]
     },
     {
       "type": "Стробоскопы",
@@ -754,7 +1272,16 @@
         "Power": "1200W",
         "Weight": "11.6 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/JDC1-User-Manual-EN-v3.0-SW1.70-68-18.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/JDC1-User-Manual-EN-v3.0-SW1.70-68-18.pdf",
+      "keywords": [
+        "GLP JDC 1",
+        "GLP",
+        "JDC",
+        "JDK",
+        "ЖДК",
+        "ГЛП",
+        "1"
+      ]
     },
     {
       "type": "Стробоскопы",
@@ -771,7 +1298,17 @@
         "Power": "750W",
         "Weight": "9.3 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/PDF-KNV-CA-DMX-Channel-Index-EN-Rev.A.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/PDF-KNV-CA-DMX-Channel-Index-EN-Rev.A.pdf",
+      "keywords": [
+        "GLP KNV Cube",
+        "GLP",
+        "KNV",
+        "Cube",
+        "ГЛП",
+        "КНВ",
+        "КВН",
+        "Куб"
+      ]
     },
     {
       "type": "Стробоскопы",
@@ -788,7 +1325,17 @@
         "Power": "750W",
         "Weight": "9.3 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/PDF-KNV-CA-DMX-Channel-Index-EN-Rev.A.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/PDF-KNV-CA-DMX-Channel-Index-EN-Rev.A.pdf",
+      "keywords": [
+        "GLP KNV ARC",
+        "GLP",
+        "KNV",
+        "ARC",
+        "ГЛП",
+        "КНВ",
+        "КВН",
+        "Арк"
+      ]
     },
     {
       "type": "Стробоскопы",
@@ -802,7 +1349,21 @@
         "Power": "850W",
         "Weight": "7.2 kg"
       },
-      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Stormy-StormyCC_DMX-Channels_11.2015.pdf"
+      "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/Stormy-StormyCC_DMX-Channels_11.2015.pdf",
+      "keywords": [
+        "CLAYPAKY Stormy CC",
+        "CLAYPAKY",
+        "Stormy",
+        "CC",
+        "Клейпаки",
+        "Клайпаки",
+        "Клэйпаки",
+        "Шторми",
+        "Сторми",
+        "Штормик",
+        "Стормик",
+        "СС"
+      ]
     },
     {
       "type": "Стробоскопы",
@@ -815,7 +1376,19 @@
         "Power": "3500W",
         "Weight": "7.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "MARTIN Atomic 3000",
+        "MARTIN",
+        "Atomic-3000",
+        "DMX",
+        "Атомик",
+        "3000",
+        "Атомик 3000",
+        "Атоми",
+        "мартин",
+        "мартен"
+      ]
     },
     {
       "type": "Архитектурная подстветка",
@@ -826,7 +1399,18 @@
         "Power": "2500W",
         "Weight": "77.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "GRIVEN KOLORADO",
+        "GRIVEN",
+        "Kolоrado",
+        "2500W",
+        "Колорадо",
+        "Коларадо",
+        "Kolarado",
+        "Kalarado",
+        "2500"
+      ]
     },
     {
       "type": "Архитектурная подстветка",
@@ -837,7 +1421,16 @@
         "Power": "575W",
         "Weight": "31 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "GRIVEN Kaleido - 575W",
+        "GRIVEN",
+        "Kaleido",
+        "575W",
+        "Калейдо",
+        "Колейдо",
+        "575"
+      ]
     },
     {
       "type": "Архитектурная подстветка",
@@ -848,7 +1441,8 @@
         "Power": "400W",
         "Weight": "22 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": []
     },
     {
       "type": "Прожекторы следящего света",
@@ -860,7 +1454,24 @@
         "Power": "2000W",
         "Weight": "35 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "ROBE BMFL FollowSpot",
+        "ROBE",
+        "BMFL",
+        "FollowSpot",
+        "Пушка",
+        "БДСМ",
+        "БМФЛ",
+        "БФМЛ",
+        "Робе",
+        "Робэ",
+        "Фоллоу",
+        "Спот",
+        "Follow Spot",
+        "Follow",
+        "Spot"
+      ]
     },
     {
       "type": "Студийный свет",
@@ -871,18 +1482,24 @@
         "Power": "2000W",
         "Weight": "7.7 kg"
       },
-      "manual": "*"
-    },
-    {
-      "type": "Студийный свет",
-      "brand": "ARRI",
-      "name": "ARRI JUNIOR 2000 FRESNEL",
-      "settings": {
-        "Default": "1 CH",
-        "Power": "2000W",
-        "Weight": "6 kg"
-      },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "ARRI Studio 2000 Fresnel",
+        "ARRI",
+        "Studio",
+        "2000",
+        "Fresnel",
+        "Систи",
+        "Студио",
+        "Френсел",
+        "Фрэнсел",
+        "Фрэнсэл",
+        "Фреснел",
+        "Фрэснел",
+        "Фрэснэл",
+        "Арри",
+        "Ари"
+      ]
     },
     {
       "type": "Студийный свет",
@@ -893,51 +1510,109 @@
         "Power": "1000W",
         "Weight": "6.9 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "ARRI Studio 1000 Fresnel",
+        "ARRI",
+        "Studio",
+        "1000",
+        "Fresnel",
+        "Арри",
+        "Ари",
+        "Френсел",
+        "Фрэнсел",
+        "Фрэнсэл",
+        "Фреснел",
+        "Фрэснел",
+        "Фрэснэл",
+        "Джуниор"
+      ]
     },
     {
       "type": "Студийный свет",
       "brand": "ARRI",
-      "name": "ARRI JUNIOR 650",
+      "name": "ARRI JUNIOR 650 Plus",
       "settings": {
         "Default": "1 CH",
         "Power": "650W",
         "Weight": "2.7 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "ARRI Junior 650 plus",
+        "ARRI",
+        "Junior",
+        "650",
+        "plus",
+        "Джуниор",
+        "Плюс",
+        "Арри",
+        "Ари"
+      ]
     },
     {
       "type": "Студийный свет",
       "brand": "DESISTY",
-      "name": "DE SISTY LEONARDO 2000",
+      "name": "DE SISTY LEONARDO 2000 FRESNEL",
       "settings": {
         "Default": "1 CH",
         "Power": "2000W",
         "Weight": "11.3 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "De Sisty Leonardo 2000 Fresnel",
+        "De",
+        "Sisty",
+        "Leonardo",
+        "2000",
+        "Fresnel",
+        "Леонардо",
+        "Френсел",
+        "Фрэнсел",
+        "Фрэнсэл",
+        "Фреснел",
+        "Фрэснел",
+        "Фрэснэл"
+      ]
     },
     {
       "type": "Студийный свет",
       "brand": "ETC",
-      "name": "ETC SOURCE FOUR ZOOM 15-30",
+      "name": "ETC SOURCE FOUR ZOOM 15-30deg",
       "settings": {
         "Default": "1 CH",
         "Power": "750W",
         "Weight": "9.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "ETC source Four zoom 15-30deg",
+        "ETC",
+        "source",
+        "Four",
+        "zoom",
+        "15-30deg"
+      ]
     },
     {
       "type": "Студийный свет",
       "brand": "ETC",
-      "name": "ETC SOURCE FOUR ZOOM 25-50",
+      "name": "ETC SOURCE FOUR ZOOM 25-50deg",
       "settings": {
         "Default": "1 CH",
         "Power": "750W",
         "Weight": "7.6 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "ETC source Four zoom 25-50deg",
+        "ETC",
+        "source",
+        "Four",
+        "zoom",
+        "25-50deg"
+      ]
     },
     {
       "type": "Заливной свет",
@@ -949,7 +1624,21 @@
         "Power": "375W",
         "Weight": "3.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "Chromlech JARAG-Line PAR 30",
+        "Chromlech",
+        "JARAG-Line",
+        "PAR30",
+        "PAR",
+        "Line",
+        "PAR",
+        "30",
+        "Джараг",
+        "Жараг",
+        "Гараж",
+        "Пар"
+      ]
     },
     {
       "type": "Заливной свет",
@@ -962,18 +1651,41 @@
         "Power": "1875W",
         "Weight": "18 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "Chromlech JARAG-5 PAR 30",
+        "Chromlech",
+        "JARAG-5",
+        "PAR30",
+        "PAR",
+        "30",
+        "Джараг",
+        "Жараг",
+        "Гараж"
+      ]
     },
     {
       "type": "Заливной свет",
       "brand": "Другое",
-      "name": "6-LAMP BAR PAR 64",
+      "name": "6-LAMP BAR PAR-64",
       "settings": {
         "Default": "6 CH",
         "Power": "6000W",
         "Weight": "10 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "6-lamp Bar PAR-64",
+        "6-lamp",
+        "Bar",
+        "PAR-64",
+        "Thomas",
+        "PAR",
+        "64",
+        "Бар",
+        "Томас",
+        "Пар"
+      ]
     },
     {
       "type": "Заливной свет",
@@ -983,7 +1695,16 @@
         "Default": "1 CH",
         "Power": "1000W",
         "Weight": "5 kg"
-      }
+      },
+      "keywords": [
+        "PAR 64",
+        "PAR-64",
+        "single",
+        "Пар",
+        "64",
+        "Пар64",
+        "Par64"
+      ]
     },
     {
       "type": "Заливной свет",
@@ -994,7 +1715,16 @@
         "Power": "500W",
         "Weight": "5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "PAR 56",
+        "PAR-56",
+
+        "Пар",
+        "56",
+        "Пар56",
+        "Par56"
+      ]
     },
     {
       "type": "Заливной свет",
@@ -1005,7 +1735,16 @@
         "Power": "1000W",
         "Weight": "5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "PAR 64",
+        "PAR-64",
+        "single",
+        "Пар",
+        "64",
+        "Пар64",
+        "Par64"
+      ]
     },
     {
       "type": "Заливной свет",
@@ -1016,40 +1755,82 @@
         "Power": "50W",
         "Weight": "2 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "PAR 20",
+        "PAR-20",
+        "single",
+        "Пар",
+        "20",
+        "Пар20",
+        "Par20"
+      ]
     },
     {
       "type": "Заливной свет",
       "brand": "Другое",
-      "name": "8 - LITE BLINDER",
+      "name": "8-LITE Blinder DWE",
       "settings": {
         "Default": "2 CH",
         "Power": "5200W",
         "Weight": "10 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "8-lite Blinder DWE",
+        "8-lite",
+        "Blinder",
+        "DWE",
+        "650W",
+        "Блайндер",
+        "Блиндер",
+        "650",
+        "ДВЕ"
+      ]
     },
     {
       "type": "Заливной свет",
       "brand": "Другое",
-      "name": "4 - LITE BLINDER",
+      "name": "4-LITE Blinder DWE",
       "settings": {
         "Default": "1 CH",
         "Power": "2600W",
         "Weight": "6.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "4-lite Blinder DWE",
+        "4-lite",
+        "Blinder",
+        "DWE",
+        "650W",
+        "Блайндер",
+        "Блиндер",
+        "650",
+        "ДВЕ"
+      ]
     },
     {
       "type": "Заливной свет",
       "brand": "Другое",
-      "name": "2 - LITE BLINDER",
+      "name": "2-LITE Blinder DWE",
       "settings": {
         "Default": "1 CH",
         "Power": "1300W",
         "Weight": "3.5 kg"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": [
+        "2-lite Blinder DWE",
+        "2-lite",
+        "Blinder",
+        "DWE",
+        "650W",
+        "Блайндер",
+        "Блиндер",
+        "650",
+        "ДВЕ"
+      ]
     },
     {
       "type": "Заливной свет",
@@ -1058,7 +1839,8 @@
       "settings": {
         "Default": "1 CH"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": []
     },
     {
       "type": "Заливной свет",
@@ -1067,7 +1849,8 @@
       "settings": {
         "Default": "1 CH"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": []
     },
     {
       "type": "Заливной свет",
@@ -1076,7 +1859,8 @@
       "settings": {
         "Default": "1 CH"
       },
-      "manual": "*"
+      "manual": "*",
+      "keywords": []
     }
   ]
 }

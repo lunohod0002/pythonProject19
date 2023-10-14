@@ -1,17 +1,6 @@
-from app.services.types import equipment_catalog
-from app.services.names import equipment
-
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import json
-
-keys = []
-for key in equipment_catalog.keys():
-    keys.append(key)
-keys2 = []
-for key in equipment.keys():
-    keys2.append(key)
-kol = 0
 
 
 def search_info(name):
