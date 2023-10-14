@@ -118,7 +118,7 @@ def search(message: Message):
                     keyword = list(map(lambda x: x.lower(), keyword))
                     if message.text.lower() in names[i].lower() or message.text.lower() in keyword:
                         lis.append(names[i])
-                        print(message.text.lower(),keyword)
+
 
                 if len(lis) == 0:
                     bot.send_message(message.chat.id, "Название не найдено", reply_markup=gen_search_keyboard(lis))
