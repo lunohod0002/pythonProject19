@@ -76,12 +76,14 @@
       "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/X4-atom-White-LED-DMX-Channel-Index.pdf",
       "keywords": [
         "GLP X4 ATOM",
+        "GLP",
         "X4",
         "atom",
         "RGBW",
         "Атом",
         "Икс",
-        "4"
+        "4",
+        "глп"
       ]
     },
     {
@@ -129,6 +131,8 @@
       "keywords": [
         "COEMAR PARLITE",
         "COEMAR",
+        "PARLITE",
+        "Парлите",
         "Par",
         "lite",
         "56",
@@ -155,6 +159,8 @@
       "keywords": [
         "COEMAR PINLITE",
         "COEMAR",
+        "PINLITE",
+        "Пинлите",
         "Pin",
         "lite",
         "36",
@@ -466,7 +472,18 @@
         "Default": "OO CH"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": [
+        "LED TUBE",
+        "LED",
+        "лед",
+        "лэд",
+        "Tube",
+        "Титан",
+        "Тайтан",
+        "Тьюб",
+        "Труба",
+        "Трубка"
+      ]
     },
     {
       "type": "Светодиодное оборудование",
@@ -489,7 +506,26 @@
         "Weight": "7 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": [
+        "EK-LIGHTNING COLLIDER BAR RGBW IP65",
+        "EK-Lighting",
+        "COLLIDER",
+        "Коллидер",
+        "Колидер",
+        "RGBW",
+        "IP65",
+        "бар",
+        "65",
+        "Лайтнинг",
+        "Лаитнинг",
+        "ЕКЛайтнинг",
+        "ЕКЛаитнинг",
+        "ЕК Лайтнинг",
+        "ЕК Лаитнинг",
+        "ЕК-Лайтнинг",
+        "ЕК-Лаитнинг",
+        "айпи"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -534,7 +570,20 @@
         "Weight": "28 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": [
+        "MARTIN MAC 600 Wash",
+        "MARTIN",
+        "МАС-600",
+        "Wash",
+        "Мак",
+        "Вош",
+        "Ваш",
+        "6O00",
+        "Мартин",
+        "Мартен",
+        "Вош",
+        "Ваш"
+      ]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -726,7 +775,7 @@
         "Weight": "53.5 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": ["МАС-III","Performance","Мак","Мак3","Мак" ,"Мак-3","Перф","Перфоманс","Перфомонс","Мартин","Мартен"]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -739,19 +788,19 @@
         "Weight": "53.5 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": ["МАС-III","Profile","Мак","Мак3","Мак" ,"Мак-3","Профайл","Пройфаил","Проф","Мартин","Мартен"]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "VARILITE Profile",
-      "name": "Vari Lite 1000 AS",
+      "name": "Vari-Lite 1000AS",
       "settings": {
         "16-Bit": "27 CH",
         "Power": "575W",
         "Weight": "27 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": ["1000AS","варилите","Врилайт","Вари","Лайт","Вари-лайт","Врилаит","Вари Лаит","Вари-лаит","1000",",1000 AC","1000," ,"ВЛ","АС","1000AC","1000АС","1000 AS","1000 A S","Вари","VARILITE"]
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -781,14 +830,15 @@
     {
       "type": "Ламповые прожекторы с полным вращением",
       "brand": "VARILITE BEAM",
-      "name": "Vari Lite 6000 BEAM",
+      "name": "Vari-Lite 6000 BEAM",
       "settings": {
         "16-Bit": "23 CH",
         "Power": "2140W",
         "Weight": "28 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": ["VL","VARILITE","6000","Beam","Врилайт","Вари Лайт","Вари-лайт","Врилаит","Вари Лаит","Вари-лаит","Бим","Beem","вл","Варилите"]
+
     },
     {
       "type": "Ламповые прожекторы с полным вращением",
@@ -920,7 +970,23 @@
         "Weight": "21 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": [
+        "MARTIN MAC QUANTUM WASH",
+        "MARTIN",
+        "МАС",
+        "QUANTUM",
+
+        "Wash",
+        "Мак",
+        "Вош",
+        "Ваш",
+        "Квантум",
+        "Куаантум",
+        "Мартин",
+        "Мартен",
+        "Вош",
+        "Ваш"
+      ]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -1013,28 +1079,6 @@
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
-      "brand": "MARTIN",
-      "name": "MARTIN MAC 301 WASH",
-      "settings": {
-        "Standard 8 RGB": "16 CH",
-        "Standard 16 RGB": "19 CH",
-        "Compressed 8 RGB": "12 CH",
-        "Compressed 16 RGB": "15 CH",
-        "Power": "350W",
-        "Weight": "8.9 kg"
-      },
-      "manual": "*",
-      "keywords": [
-        "MAC 301",
-        "МАС",
-        "301",
-        "Мак",
-        "Мартин",
-        "Мартен"
-      ]
-    },
-    {
-      "type": "Светодиодные прожекторы с полным вращением",
       "brand": "JB-LIGHTNING WASH",
       "name": "JB-LIGHTING A7 ZOOM",
       "settings": {
@@ -1083,7 +1127,7 @@
         "Weight": "27.5 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": ["Paky","B-eye","K25","eye","ай","Клейпаки","Клайпаки","Клэйпаки","К","25","К25"]
     },
     {
       "type": "Светодиодные прожекторы с полным вращением",
@@ -1229,7 +1273,15 @@
         "Weight": "11.6 kg"
       },
       "manual": "https://laserkinetics.ru/uploadedFiles/files/Manuals/JDC1-User-Manual-EN-v3.0-SW1.70-68-18.pdf",
-      "keywords": []
+      "keywords": [
+        "GLP JDC 1",
+        "GLP",
+        "JDC",
+        "JDK",
+        "ЖДК",
+        "ГЛП",
+        "1"
+      ]
     },
     {
       "type": "Стробоскопы",
@@ -1333,7 +1385,9 @@
         "Атомик",
         "3000",
         "Атомик 3000",
-        "Атоми"
+        "Атоми",
+        "мартин",
+        "мартен"
       ]
     },
     {
@@ -1662,7 +1716,15 @@
         "Weight": "5 kg"
       },
       "manual": "*",
-      "keywords": []
+      "keywords": [
+        "PAR 56",
+        "PAR-56",
+
+        "Пар",
+        "56",
+        "Пар56",
+        "Par56"
+      ]
     },
     {
       "type": "Заливной свет",
