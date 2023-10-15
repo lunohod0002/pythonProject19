@@ -7,7 +7,9 @@ import json
 from app.services import get_current_names, get_current_brands, get_brand_current_names
 
 from telebot.types import ReplyKeyboardRemove, Message
-from app.services import storage, get_all_id, get_all_names, get_all_brands, get_all_types,get_keywords_list
+from app.services import storage, get_all_id, get_all_names, get_all_brands, get_all_types
+from app.services.keywords import get_keywords,get_names
+
 from app.services.keys import keys3
 from app.keyboards.catalog import gen_main_keyboard, gen_search_keyboard, \
     get_info_brand, gen_second_keyboard, gen_third_keyboard, get_info, get_brands_keyboard, \
