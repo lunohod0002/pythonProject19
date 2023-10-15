@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="Update: handlers.py">
       <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/equipment.json" beforeDir="false" afterPath="$PROJECT_DIR$/equipment.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697404203126</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Update: handlers.py">
+      <created>1697404596070</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1697404596070</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

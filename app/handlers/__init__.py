@@ -17,8 +17,6 @@ from app.handlers.start import start
 
 keys = []
 kol = 0
-with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
 
 
 @bot.callback_query_handler(func=lambda call: True)
@@ -100,10 +98,7 @@ def search(message: Message):
 
     match storage.get_state(chat_id=message.chat.id, user_id=message.from_user.id):
         case 'search':
-            log_file = open("info.log", "a")
-            log_file.write(
-                f"\n[INFO {datetime.now()}]: {message.from_user.username} {message.chat.id}")
-            log_file.close()
+
             if (len(message.text) > 1):
                 lis = list()
                 names = get_names()
