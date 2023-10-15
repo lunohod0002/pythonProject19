@@ -1,11 +1,13 @@
-from app.services.types import equipment_catalog
 import telebot
+
+from app.services.names import equipment
+from app.services.types import equipment_catalog
+from app.services.keywords import get_keywords,get_names
 import json
 from app.services import get_current_names, get_current_brands, get_brand_current_names
 
 from telebot.types import ReplyKeyboardRemove, Message
-from app.services.names import equipment
-from app.services import storage, get_all_id, get_all_names, get_all_brands, get_all_types
+from app.services import storage, get_all_id, get_all_names, get_all_brands, get_all_types,get_keywords_list
 from app.services.keys import keys3
 from app.keyboards.catalog import gen_main_keyboard, gen_search_keyboard, \
     get_info_brand, gen_second_keyboard, gen_third_keyboard, get_info, get_brands_keyboard, \
@@ -50,7 +52,7 @@ def callback_query(call):
         bot.answer_callback_query(callback_query_id=call.id, show_alert=True)
     elif call.data == 'search':
 
-        bot.send_message(call.from_user.id, "Введите название прибора",
+        bot.send_message(call.from_user.id, "Напишите название прибора",
                          reply_markup=ReplyKeyboardRemove())
         storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
 
@@ -65,10 +67,10 @@ def callback_query(call):
     elif call.data == "menu":
 
         if call.message.chat.id == int(admin_id):
-            bot.send_message(call.message.chat.id, "Меню",
+            bot.send_message(call.message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
                              reply_markup=admin_start_keybooard())
         else:
-            bot.send_message(call.message.chat.id, "Меню",
+            bot.send_message(call.message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
                              reply_markup=user_start_keyboard())
         storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
 
@@ -106,14 +108,18 @@ def search(message: Message):
 
     match storage.get_state(chat_id=message.chat.id, user_id=message.from_user.id):
         case 'search':
-            if (len(message.text) > 2):
+            if (len(message.text) > 1):
                 lis = list()
-                names = get_all_names()
-                s = message.text.lower
-                main_keyboard = telebot.types.ReplyKeyboardMarkup()
-                for i in range(0, len(keys3)):
-                    if message.text.lower() in keys3[i].lower():
+                names = get_names()
+
+                keywords=get_keywords()
+                for i in range(len(names)):
+                    keyword=keywords[i]
+                    keyword = list(map(lambda x: x.lower(), keyword))
+                    if message.text.lower() in names[i].lower() or message.text.lower() in keyword:
                         lis.append(names[i])
+                        print(message.text.lower(),keyword)
+
                 if len(lis) == 0:
                     bot.send_message(message.chat.id, "Название не найдено", reply_markup=gen_search_keyboard(lis))
                 else:
@@ -123,7 +129,7 @@ def search(message: Message):
                                       state='search')
 
             else:
-                bot.send_message(message.chat.id, "Название должно быть длинее 2 символов")
+                bot.send_message(message.chat.id, "Название должно быть длинее 1 символов")
 
         case 'search_info':
             for item in keys2:
@@ -144,10 +150,10 @@ def search(message: Message):
                                  key='brand_type', value=message.text)
             elif message.text == 'Меню':
                 if message.chat.id == int(admin_id):
-                    bot.send_message(message.chat.id, "Меню",
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
                                      reply_markup=admin_start_keybooard())
                 else:
-                    bot.send_message(message.chat.id, "Меню",
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
                                      reply_markup=user_start_keyboard())
 
                 storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
@@ -182,10 +188,10 @@ def search(message: Message):
                                  key='type', value=message.text)
             elif (message.text == 'Меню'):
                 if message.chat.id == int(admin_id):
-                    bot.send_message(message.chat.id, "Меню",
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
                                      reply_markup=admin_start_keybooard())
                 else:
-                    bot.send_message(message.chat.id, "Меню",
+                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
                                      reply_markup=user_start_keyboard())
 
                 storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
