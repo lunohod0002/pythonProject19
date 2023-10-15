@@ -27,11 +27,3 @@ for key in names:
                       key.split(" ")[0] + "-" + key.split(" ")[3] + " " + key.split(" ")[0] + key.split(" ")[3] + " " +
                       key.replace("-", "") +
                       key))
-    elif len(key.split(" "))==6:
-        keys3.append((key.split(" ")[0] + "-" + key.split(" ")[1] + " " + key.split(" ")[0] + key.split(" ")[1] +" "+
-                      key.split(" ")[1] + "-" + key.split(" ")[2] + " " + key.split(" ")[1] + key.split(" ")[2] +" "+
-                      key.split(" ")[2] + "-" + key.split(" ")[3] + " " + key.split(" ")[2] + key.split(" ")[3] +" "+
-                      key.split(" ")[0] + "-" + key.split(" ")[2] + " " + key.split(" ")[0] + key.split(" ")[2] +" "+
-                      key.split(" ")[0] + "-" + key.split(" ")[3] + " " + key.split(" ")[0] + key.split(" ")[3] + " " +
-                      key.replace("-", "") +
-                      key))

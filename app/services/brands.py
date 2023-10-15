@@ -146,7 +146,7 @@ brands = {
         }
     },
     "CHROMA-Q": {
-        "CHROMA-Q Color Block 2": {
+        "CHROMA-Q COLOR BLOCK 2": {
             "1": "12 CH",
             "2": "12 CH",
             "3": "12 CH",

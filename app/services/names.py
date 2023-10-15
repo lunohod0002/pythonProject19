@@ -439,7 +439,7 @@ equipment = {
         "Power": "700W",
         "Weight": "30 kg"
     },
-    "FineArt V-2033 ": {
+    "FINEART V - 2033": {
         "Default": "00 CH",
     },
     "GLP JDC 1": {
