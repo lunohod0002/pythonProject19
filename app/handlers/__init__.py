@@ -48,7 +48,8 @@ def callback_query(call):
 
         storage.set_state(chat_id=call.message.chat.id, user_id=call.from_user.id, state='search')
         bot.answer_callback_query(callback_query_id=call.id, show_alert=True)
-    elif call.data in get_all_names():
+    elif call.data in get_names():
+        (1)
         bot.send_message(call.from_user.id, search_info(call.data), reply_markup=get_manual_keyboard(call.data))
         storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
 
@@ -109,7 +110,7 @@ def search(message: Message):
                     keyword = list(map(lambda x: x.lower(), keyword))
                     if message.text.lower() in names[i].lower() or message.text.lower() in keyword:
                         lis.append(names[i])
-                        print(message.text.lower(),keyword)
+                        (message.text.lower(),keyword)
 
                 if len(lis) == 0:
                     bot.send_message(message.chat.id, "Название не найдено", reply_markup=gen_search_keyboard(lis))
@@ -121,7 +122,6 @@ def search(message: Message):
 
             else:
                 bot.send_message(message.chat.id, "Название должно быть длинее 1 символов")
-
 
 
         case 'brand_type':

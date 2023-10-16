@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="Update: handlers.py">
+    <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="work please">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/equipment.json" beforeDir="false" afterPath="$PROJECT_DIR$/equipment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/catalog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/catalog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards/search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/search/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equipment.json" beforeDir="false" afterPath="$PROJECT_DIR$/equipment.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +53,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19\app\services" />
       <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19" />
+      <recent name="C:\Users\Георгий\PycharmProjects\pythonProject19\app\services" />
     </key>
   </component>
   <component name="RunManager">
@@ -305,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697404596070</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="work please">
+      <created>1697404990342</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1697404990342</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -342,7 +355,6 @@
     <MESSAGE value="add: new firelights2" />
     <MESSAGE value="Update:brands.py names.py types.py" />
     <MESSAGE value="change:main.py" />
-    <MESSAGE value="work please" />
     <MESSAGE value="work" />
     <MESSAGE value="work2.0" />
     <MESSAGE value="work3.0" />
@@ -353,7 +365,8 @@
     <MESSAGE value="Update: main.py,equipment.json" />
     <MESSAGE value="Update: equipment.json" />
     <MESSAGE value="Update: handlers.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: handlers.py" />
+    <MESSAGE value="work please" />
+    <option name="LAST_COMMIT_MESSAGE" value="work please" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

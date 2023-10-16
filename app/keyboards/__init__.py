@@ -74,7 +74,7 @@ def gen_search_keyboard(lis) -> InlineKeyboardMarkup:
 def gen_second_keyboard(type) -> ReplyKeyboardMarkup:
     second_keyboard = telebot.types.ReplyKeyboardMarkup()
     brands = get_current_brands(type)
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     for brand in brands:
@@ -108,7 +108,7 @@ def get_info(tg_id):
     type = costorage['type']
     brand = costorage['brand']
     name = costorage['name']
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:
         if item["type"] == type and item["brand"] == brand and item["name"] == name:
@@ -125,7 +125,7 @@ def get_info_brand(tg_id):
     costorage = storage.get_data(chat_id=tg_id, user_id=tg_id)
     brand = costorage['brand_type']
     name = costorage['brand_name']
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:
         if item["brand"] == brand and item["name"] == name:
@@ -139,7 +139,7 @@ def get_info_brand(tg_id):
 
 
 def search_info(name):
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:
         if item["name"] == name:

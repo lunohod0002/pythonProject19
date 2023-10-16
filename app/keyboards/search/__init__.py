@@ -4,7 +4,7 @@ import json
 
 
 def search_info(name):
-    with open('app/services/equipment.json', 'r',
+    with open('equipment.json', 'r',
               encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:

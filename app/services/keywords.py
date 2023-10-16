@@ -19,4 +19,4 @@ def get_names():
         for device in json_data["equipment"]:
             a.append(device["name"])
         return a
-print(get_keywords())
+(get_keywords())

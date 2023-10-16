@@ -20,7 +20,7 @@ import json
 
 
 def get_all_types():
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     types = []
 
@@ -37,7 +37,7 @@ def get_all_types():
 
 
 def get_all_brands():
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     brands = []
 
@@ -54,7 +54,7 @@ def get_all_brands():
 
 
 def get_current_brands(type):
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     brands = []
 
@@ -71,7 +71,7 @@ def get_current_brands(type):
 
 
 def get_current_names(type, brand):
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     names = []
 
@@ -89,7 +89,7 @@ def get_current_names(type, brand):
             new_list.append(el)
     return new_list
 def get_brand_current_names(brand):
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     names = []
 
@@ -108,7 +108,7 @@ def get_brand_current_names(brand):
 
 
 def get_all_names():
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     names = []
@@ -124,7 +124,7 @@ def get_all_names():
     return new_list
 
 def get_manual_link(name):
-    with open('app/services/equipment.json', 'r', encoding='utf-8') as f:
+    with open('equipment.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     for item in data["equipment"]:
         if name == item["name"]:
