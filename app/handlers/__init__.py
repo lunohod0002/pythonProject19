@@ -42,7 +42,7 @@ def callback_query(call):
         bot.answer_callback_query(callback_query_id=call.id, show_alert=True)
     elif call.data == 'search':
 
-        bot.send_message(call.from_user.id, "Напишите название прибора",
+        bot.send_message(call.from_user.id, "Введите имя прибора",
                          reply_markup=ReplyKeyboardRemove())
         storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
 
@@ -58,10 +58,10 @@ def callback_query(call):
     elif call.data == "menu":
 
         if call.message.chat.id == int(admin_id):
-            bot.send_message(call.message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+            bot.send_message(call.message.chat.id, "Главное меню",
                              reply_markup=admin_start_keybooard())
         else:
-            bot.send_message(call.message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+            bot.send_message(call.message.chat.id, "Главное меню",
                              reply_markup=user_start_keyboard())
         storage.reset_data(chat_id=call.message.chat.id, user_id=call.from_user.id)
 
@@ -135,10 +135,10 @@ def search(message: Message):
                                  key='brand_type', value=message.text)
             elif message.text == 'Меню':
                 if message.chat.id == int(admin_id):
-                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                    bot.send_message(message.chat.id, "Главное меню",
                                      reply_markup=admin_start_keybooard())
                 else:
-                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                    bot.send_message(message.chat.id, "Главное меню",
                                      reply_markup=user_start_keyboard())
 
                 storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)
@@ -173,10 +173,10 @@ def search(message: Message):
                                  key='type', value=message.text)
             elif (message.text == 'Меню'):
                 if message.chat.id == int(admin_id):
-                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                    bot.send_message(message.chat.id, "Главное меню",
                                      reply_markup=admin_start_keybooard())
                 else:
-                    bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+                    bot.send_message(message.chat.id, "Главное меню",
                                      reply_markup=user_start_keyboard())
 
                 storage.reset_data(chat_id=message.chat.id, user_id=message.from_user.id)

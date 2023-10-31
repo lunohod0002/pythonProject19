@@ -10,10 +10,10 @@ from main import bot,admin_id
 @bot.message_handler(commands=['start'])
 def start(message: Message):
     if message.chat.id == int(admin_id):
-        bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+        bot.send_message(message.chat.id, "Главное меню",
                          reply_markup=admin_start_keybooard())
     else:
-        bot.send_message(message.chat.id, "Привет! Нажми на кнопку, чтобы начать",
+        bot.send_message(message.chat.id, "Главное меню",
                          reply_markup=user_start_keyboard())
 
     log_file = open("info.log", "a")
