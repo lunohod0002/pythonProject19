@@ -11,7 +11,7 @@ equipment = {
         "Mode 2": "36 CH",
         "Mode 3": "56 CH",
 
-        "Power": "850W",
+        "Power": "1150W",
         "Weight": "36.9 kg"
     },
     "ROBE LED BEAM 150": {
