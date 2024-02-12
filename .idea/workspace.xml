@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e959a93f-3dd7-47fd-9efa-7396ad740829" name="Changes" comment="work pleaseю20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/keywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/names.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/types.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +335,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698781967241</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="work pleaseю20">
+      <created>1699197734766</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1699197734766</updated>
+    </task>
+    <task id="LOCAL-00036" summary="work pleaseю20">
+      <created>1699734130134</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1699734130134</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -382,16 +399,5 @@
     <MESSAGE value="work please" />
     <MESSAGE value="work pleaseю20" />
     <option name="LAST_COMMIT_MESSAGE" value="work pleaseю20" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/services/types.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

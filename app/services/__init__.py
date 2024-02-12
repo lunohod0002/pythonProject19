@@ -95,9 +95,9 @@ def get_brand_current_names(brand):
 
     for item in data["equipment"]:
         if brand == item["brand"]:
-            name = item["name"]
+            name = str(item["name"])
 
-            names.append(name)
+            names.append(name.strip())
     new_list = []
 
     for el in names:
